@@ -1,24 +1,32 @@
-rime_custom_dict
+rime_custom
 ======
-汇总网络中收集到的各种Rime输入法的词库
+为Rime输入法增加[扩展词库](https://github.com/rime-aca/dictionaries)和[搜狗词库](https://github.com/daya-prac/Rime_custom_dict)并自定义Rime设置。
+
+
+
+## 自定义设置说明
+
+Rime输入法选单只留下： 小鹤双拼、朙月拼音以及emoji表情。
+
+朙月拼音以及相关输入法默认启动英文输入方式。
 
 
 
 
-## 1. 下载词库 
+## 下载
 
-`git clone https://github.com/yanyingwang/rime_custom_dict.git`
-
-
+    git clone https://github.com/yanyingwang/rime_custom_dict.git
 
 
-## 2. 复制词库文件
+
+
+## 安装
 
 将本源中的所有内容复制到Rime输入法相关的词库目录下，
 
 以Linux系统为例：
 
-`cp rime_custom_dict/*.yaml ~/.config/ibus/rime`
+    cp rime_custom_dict/*.yaml ~/.config/ibus/rime
 
 
 不同系统的词库目标位置如下表：
@@ -34,13 +42,13 @@ rime_custom_dict
 
 
 
-## 3. 变更词库名称
+## 变更词库名称
 
 双拼使用者，请再将`double_pinyin.custom.yaml`文件重命名为您所使用的双拼方案名字，
 
 以Linux系统和小鹤双拼为例：
 
-`mv ~/.config/ibus/rime/double_pinyin.custom.yaml ~/.config/ibus/rime/double_pinyin_flypy.custom.yaml`
+    mv ~/.config/ibus/rime/double_pinyin.custom.yaml ~/.config/ibus/rime/double_pinyin_flypy.custom.yaml
 
 双拼默认命名规则请参照下表：
 
@@ -55,6 +63,6 @@ rime_custom_dict
 
 
 
-## 4 . 重新部署
+## 重新部署
 
 重新部署，即可生效。
