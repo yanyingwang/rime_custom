@@ -47,6 +47,8 @@ import_tables:
 #- luna_pinyin.cn_en
   - luna_pinyin.zonek
   - luna_pinyin.sogou
+  - english
+  - meow_emoji
 ...
 
 一一列舉		1

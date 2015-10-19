@@ -1,14 +1,22 @@
 rime_custom
 ======
-为Rime输入法增加[扩展词库](https://github.com/rime-aca/dictionaries)和[搜狗词库](https://github.com/daya-prac/Rime_custom_dict)并自定义Rime设置。
+为Rime输入法增加扩展词库并自定义Rime设置。
+
+
+## 词库
+
+从网络收集并整理了以下词库：
+
+* [https://github.com/rime-aca/dictionaries](https://github.com/rime-aca/dictionaries)
+* [https://github.com/daya-prac/Rime_custom_dict](https://github.com/daya-prac/Rime_custom_dict)
+* [https://github.com/elxy/meow_mspy.git](https://github.com/elxy/meow_mspy.git)
 
 
 
 ## 自定义设置说明
 
-Rime输入法选单只留下： 小鹤双拼、朙月拼音以及emoji表情。
-
-朙月拼音以及相关输入法默认启动英文输入方式。
+* Rime输入法选单只留下： 小鹤双拼、朙月拼音和五笔拼音
+* 朙月拼音以及相关输入法默认启动英文输入方式
 
 
 
