@@ -44,10 +44,10 @@ import_tables:
   - luna_pinyin
   - luna_pinyin.hanyu
   - luna_pinyin.poetry
-#- luna_pinyin.cn_en
   - luna_pinyin.zonek
   - luna_pinyin.sogou
-  - english
+    #- luna_pinyin.cn_en
+    #- english
   - meow_emoji
 ...
 
