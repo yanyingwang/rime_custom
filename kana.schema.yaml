@@ -4,7 +4,7 @@
 
 schema:
   schema_id: kana
-  name: 假名
+  name: 日语假名
   version: "2013.03.07"
   author:
     - polyhedron <polyhedron@gmail.com>
