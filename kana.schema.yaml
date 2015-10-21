@@ -1,0 +1,85 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: kana
+  name: 假名
+  version: "2013.03.07"
+  author:
+    - polyhedron <polyhedron@gmail.com>
+  description: |
+    假名輸入，小寫假名用x前導
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 假名, 西文 ]
+  - name: half_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  delimiter: " '"
+  algebra:
+    - derive/q/x/
+    - derive/l/r/
+    - derive/si/shi/
+    - derive/sy([auo])/sh$1/
+    - derive/zi/ji/
+    - derive/zy([auo])/j$1/
+    - derive/tu/tsu/
+    - derive/ti/chi/
+    - derive/ty([auo])/ch$1/
+    - derive/hu/fu/
+
+translator:
+  dictionary: kana
+  spelling_hints: 4
+#  prism: hangyl
+#  preedit_format:
+#    - xform/[']//
+#    - "xform/(^|[ '])q?([aeouiy])/$1q$2/"
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

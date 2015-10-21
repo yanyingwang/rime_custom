@@ -36,3 +36,4 @@ patch:
     #- schema: ipa_xsampa           # X-SAMPA 國際音標
     #- schema: emoji                # emoji表情
     - schema: english               # 英文单词
+    - schema: kana                  # 日语假名輸入，小寫假名用x前導
