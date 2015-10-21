@@ -1,0 +1,121 @@
+# Rime schema
+# encoding: utf-8
+# 詳細設定請參考：
+# http://rime-aca.tumblr.com/post/67241713724/rime
+# https://github.com/rime/home/wiki/RimeWithSchemata
+
+schema:
+  schema_id: meow_emoji
+  name: 貓顏文字
+  version: "0.2"
+  author:
+    - hitigon <hitigon@gmail.com>
+    - elxy <elminxy@gmail.com>
+  description: |
+    Meow! 基於貓老師@_ym的貓顏文字詞庫，修改以适配雙拼
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+
+translator:
+  enable_sentence: false
+  enable_user_dict: false
+  dictionary: meow_emoji
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+speller:
+  algebra:
+    - "erase/^xx$/"
+    - "derive/^([jqxy])u$/$1v/"
+    - "derive/^([aoe].*)$/o$1/"
+    - "xform/^([ae])(.*)$/$1$1$2/"
+    - "xform/iu$/Q/"
+    - "xform/[iu]a$/W/"
+    - "xform/er$|[uv]an$/R/"
+    - "xform/[uv]e$/T/"
+    - "xform/v$|uai$/Y/"
+    - "xform/^sh/U/"
+    - "xform/^ch/I/"
+    - "xform/^zh/V/"
+    - "xform/uo$/O/"
+    - "xform/[uv]n$/P/"
+    - "xform/i?ong$/S/"
+    - "xform/[iu]ang$/D/"
+    - "xform/(.)en$/$1F/"
+    - "xform/(.)eng$/$1G/"
+    - "xform/(.)ang$/$1H/"
+    - "xform/ian$/M/"
+    - "xform/(.)an$/$1J/"
+    - "xform/iao$/C/"
+    - "xform/(.)ao$/$1K/"
+    - "xform/(.)ai$/$1L/"
+    - "xform/(.)ei$/$1Z/"
+    - "xform/ie$/X/"
+    - "xform/ui$/V/"
+    - "derive/T$/V/"
+    - "xform/(.)ou$/$1B/"
+    - "xform/in$/N/"
+    - "xform/ing$/;/"
+    - "xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  delimiter: " '"
+  initials: zyxwvutsrqponmlkjihgfedcba
+
+translator:
+  dictionary: meow_emoji
+  preedit_format:
+    - "xform/([aoe])(\\w)/0$2/"
+    - "xform/([bpmnljqxy])n/$1in/"
+    - "xform/(\\w)g/$1eng/"
+    - "xform/(\\w)q/$1iu/"
+    - "xform/([gkhvuirzcs])w/$1ua/"
+    - "xform/(\\w)w/$1ia/"
+    - "xform/([dtnlgkhjqxyvuirzcs])r/$1uan/"
+    - "xform/0r/er/"
+    - "xform/([dtgkhvuirzcs])v/$1ui/"
+    - "xform/(\\w)v/$1ve/"
+    - "xform/(\\w)t/$1ve/"
+    - "xform/([gkhvuirzcs])y/$1uai/"
+    - "xform/(\\w)y/$1v/"
+    - "xform/([dtnlgkhvuirzcs])o/$1uo/"
+    - "xform/(\\w)p/$1un/"
+    - "xform/([jqx])s/$1iong/"
+    - "xform/(\\w)s/$1ong/"
+    - "xform/([jqxnl])d/$1iang/"
+    - "xform/(\\w)d/$1uang/"
+    - "xform/(\\w)f/$1en/"
+    - "xform/(\\w)h/$1ang/"
+    - "xform/(\\w)j/$1an/"
+    - "xform/(\\w)k/$1ao/"
+    - "xform/(\\w)l/$1ai/"
+    - "xform/(\\w)z/$1ei/"
+    - "xform/(\\w)x/$1ie/"
+    - "xform/(\\w)c/$1iao/"
+    - "xform/(\\w)b/$1ou/"
+    - "xform/(\\w)m/$1ian/"
+    - "xform/(\\w);/$1ing/"
+    - "xform/0(\\w)/$1/"
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - "xform/([jqxy])v/$1u/"
+    - "xform/([nl])v/$1ü/"
+  prism: meow_emoji
