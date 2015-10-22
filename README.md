@@ -16,7 +16,7 @@ rime_custom
 
 与默认小鹤双拼相比：
 * 支持英文单词词库
-* 支持特殊输入符号和词组等，[见此文件](https://github.com/yanyingwang/rime_custom/blob/master/default.custom.yaml)
+* 支持特殊输入符号和词组等，[见此文件](https://github.com/yanyingwang/rime_custom/blob/master/symbols.yaml)
 
 
 
@@ -33,8 +33,13 @@ rime_custom
 **朙月拼音以及相关输入法默认启动英文输入模式**
 
 
+
 ## 截图
-[![](https://cdn.monetizejs.com/resources/button-32.png)]
+[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/buuiwogjde.png)]
+[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/guitar.png)]
+[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xz.png)]
+[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xzm.png)]
+
 
 
 
