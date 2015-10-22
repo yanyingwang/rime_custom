@@ -27,18 +27,26 @@ rime_custom
   * 朙月拼音
   * 五笔拼音
   * 英文单词
-  * 日语假
+  * 日语假名
   * 小鹤迎双拼
 
+<!--
 **朙月拼音以及相关输入法默认启动英文输入模式**
+-->
 
 
 
-## 截图
-[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/buuiwogjde.png)]
-[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/guitar.png)]
-[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xz.png)]
-[![](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xzm.png)]
+## 小鹤迎双拼截图
+
+![buuiwogjde](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/buuiwogjde.png)
+
+![!guitar](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/guitar.png)
+
+![!xz](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xz.png)
+
+![!xzm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xzm.png)
+
+![!jm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/jm.png)
 
 
 
