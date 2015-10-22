@@ -12,6 +12,13 @@ rime_custom
 * [https://github.com/elxy/meow_mspy.git](https://github.com/elxy/meow_mspy.git)
 
 
+## 新的输入法方案：小鹤迎双拼 - flypy_ying
+
+与默认小鹤双拼相比：
+* 支持英文单词词库
+* 支持特殊输入符号和词组等，[见此文件](https://github.com/yanyingwang/rime_custom/blob/master/default.custom.yaml)
+
+
 
 ## 自定义设置说明
 
@@ -20,9 +27,14 @@ rime_custom
   * 朙月拼音
   * 五笔拼音
   * 英文单词
-  * 日语假名。
-* 朙月拼音以及相关输入法默认启动英文输入方式
+  * 日语假
+  * 小鹤迎双拼
 
+**朙月拼音以及相关输入法默认启动英文输入模式**
+
+
+## 截图
+[![](https://cdn.monetizejs.com/resources/button-32.png)]
 
 
 
