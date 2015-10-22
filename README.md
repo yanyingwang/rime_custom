@@ -48,6 +48,8 @@ rime_custom
 
 ## 小鹤迎双拼截图
 
+![list](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/list.png)
+
 ![buuiwogjde](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/buuiwogjde.png)
 
 ![!guitar](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/guitar.png)
