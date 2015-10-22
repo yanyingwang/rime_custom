@@ -3,6 +3,15 @@ rime_custom
 为Rime输入法增加扩展词库并自定义Rime设置。
 
 
+
+## 安装rime
+
+如您还未安装ibus-rime，请先执行如下命令安装：
+
+    $ sudo aptitude install -y ibus-rime ibus-rime librime-data librime-data-double-pinyin librime-data-wubi
+
+
+
 ## 词库
 
 从网络收集并整理了以下词库：
@@ -10,6 +19,7 @@ rime_custom
 * [https://github.com/rime-aca/dictionaries](https://github.com/rime-aca/dictionaries)
 * [https://github.com/daya-prac/Rime_custom_dict](https://github.com/daya-prac/Rime_custom_dict)
 * [https://github.com/elxy/meow_mspy.git](https://github.com/elxy/meow_mspy.git)
+
 
 
 ## 新的输入法方案：小鹤迎双拼 - ying_flypy
@@ -58,7 +68,7 @@ rime_custom
 
 
 
-## 安装
+## 安装词库和新的输入法方案：
 
 将本源中的所有内容复制到Rime输入法相关的词库目录下，
 
@@ -104,3 +114,12 @@ rime_custom
 ## 重新部署
 
 重新部署，即可生效。
+
+
+## ibus-rime状态栏icon消失
+
+可执行如下命令替换原icon:
+
+    $ cp icon/rime_custom/zhung-new.png /usr/share/ibus-rime/icons/zhung.svg
+
+
