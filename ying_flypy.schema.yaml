@@ -3,7 +3,7 @@
 
 schema:
   name: "小鹤迎双拼"
-  schema_id: flypy_ying
+  schema_id: ying_flypy
   author:
     - WangYanying <wangyanying@gmail.com>
   description: |
@@ -163,7 +163,7 @@ translator:                 #   设定本方案的主 translator
 #    - "xform/(^|[ '])u/$1sh/"
 #    - "xform/([jqxy])v/$1u/"
 #    - "xform/([nl])v/$1ü/"
-  prism: flypy_ying         #   设定由此主翻译器的 speller 生成的棱镜文件名，或此副编译器调用的棱镜名
+  prism: ying_flypy         #   设定由此主翻译器的 speller 生成的棱镜文件名，或此副编译器调用的棱镜名
 # user_dict:                #   设定用户词典名
 # db_class:                 #   设定用户词典类型，可设tabledb（文本）或userdb（二进制）
 # comment_format:           #   提示码自定义

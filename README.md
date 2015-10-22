@@ -12,7 +12,7 @@ rime_custom
 * [https://github.com/elxy/meow_mspy.git](https://github.com/elxy/meow_mspy.git)
 
 
-## 新的输入法方案：小鹤迎双拼 - flypy_ying
+## 新的输入法方案：小鹤迎双拼 - ying_flypy
 
 与默认小鹤双拼相比：
 * 支持英文单词词库
