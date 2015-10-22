@@ -1,6 +1,6 @@
 rime_custom
 ======
-为Rime输入法增加扩展词库并自定义Rime设置。
+为[Rime输入法](http://rime.im/)增加扩展词库并自定义Rime设置。
 
 
 
