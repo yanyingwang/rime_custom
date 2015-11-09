@@ -200,6 +200,7 @@ custom_phrase:
 punctuator:
   import_preset: symbols
   half_shape:
+    '#' : { commit: "#" }
     '<' : { commit: "《" }
     '>' : { commit: "》" }
     '/' : { commit: "、" }
