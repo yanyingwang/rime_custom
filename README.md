@@ -1,6 +1,13 @@
+
+注意：此源已经不再维护，作者已转用[搜狗输入法](http://pinyin.sogou.com/linux/)
+======
+
+
+
 rime_custom
 ======
 为[Rime输入法](http://rime.im/)增加扩展词库并自定义Rime设置。
+
 
 
 
