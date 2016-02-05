@@ -55,17 +55,17 @@ rime_custom
 
 ## 小鹤迎双拼截图
 
-![list](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/list.png)
+![list](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/list.png)
 
-![buuiwogjde](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/buuiwogjde.png)
+![buuiwogjde](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/buuiwogjde.png)
 
-![!guitar](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/guitar.png)
+![!guitar](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/guitar.png)
 
-![!xz](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xz.png)
+![!xz](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/xz.png)
 
-![!xzm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/xzm.png)
+![!xzm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/xzm.png)
 
-![!jm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/shotcuts/jm.png)
+![!jm](https://raw.githubusercontent.com/yanyingwang/rime_custom/master/screenshots/jm.png)
 
 
 
