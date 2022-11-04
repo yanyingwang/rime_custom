@@ -22,7 +22,7 @@ rime_custom
 
 | 系统   |    词库目录         |
 |--------|---------------------|
-| Linux - ibus  | ~/.config/ibus/rime |
+| Linux - ibus  | ~/.config/ibus/rime | /usr/share/rime-data
 | Linux - fcitx | ~/.config/fcitx/rime |
 | Mac OS | ~/Library/Rime      |
 |Windows | %APPDATA%\Rime      |
