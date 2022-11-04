@@ -29,7 +29,7 @@ rime_custom
 
 以Linux系统的fcitx为例：
 ```shell
-cp default.custom.yaml ~/.config/fcitx/rime
+cp default.yaml ~/.config/fcitx/rime
 cp -a pinyin/* ~/.config/fcitx/rime
 cp -a mzhengma-large/* ~/.config/fcitx/rime
 cp -a py123/* ~/.config/fcitx/rime
