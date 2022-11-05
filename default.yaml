@@ -5,7 +5,7 @@ config_version: "0.38"
 
 schema_list:
   - schema: double_pinyin_flypy
-  - schema: mzhengma-large
+  - schema: mzhengma
   - schema: easy_en
   - schema: muna_pinyin
   - schema: pinyin123 # 郑码反查依赖于此库
