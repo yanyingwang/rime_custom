@@ -4,9 +4,9 @@
 config_version: "0.38"
 
 schema_list:
-  - schema: muna_pinyin
   - schema: double_pinyin_flypy
   - schema: mzhengma-large
+  - schema: muna_pinyin
     #- schema: luna_pinyin
     #- schema: luna_pinyin_fluency
     #- schema: luna_pinyin_simp

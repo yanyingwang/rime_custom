@@ -22,17 +22,16 @@ rime_custom
 
 | 系统   |    词库目录         |
 |--------|---------------------|
-| Linux - ibus  | ~/.config/ibus/rime | /usr/share/rime-data
+| Linux - ibus  | ~/.config/ibus/rime <--> /usr/share/rime-data|
 | Linux - fcitx | ~/.config/fcitx/rime |
 | Mac OS | ~/Library/Rime      |
 |Windows | %APPDATA%\Rime      |
 
 以Linux系统的fcitx为例：
 ```shell
-cp default.yaml ~/.config/fcitx/rime
-cp -a pinyin/* ~/.config/fcitx/rime
-cp -a mzhengma-large/* ~/.config/fcitx/rime
-cp -a py123/* ~/.config/fcitx/rime
+rm -rf ~/.config/fcitx/rime
+ln -sf ~/rime_custom ~/.config/fcitx/rime
+ls -ld ~/.config/fcitx/rime
 ```
 
 ## 重新部署
