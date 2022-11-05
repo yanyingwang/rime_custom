@@ -6,7 +6,9 @@ config_version: "0.38"
 schema_list:
   - schema: double_pinyin_flypy
   - schema: mzhengma-large
+  - schema: easy_en
   - schema: muna_pinyin
+  - schema: pinyin123 # 郑码反查依赖于此库
     #- schema: luna_pinyin
     #- schema: luna_pinyin_fluency
     #- schema: luna_pinyin_simp
@@ -15,7 +17,6 @@ schema_list:
     #- schema: cangjie5
     #- schema: stroke
     #- schema: terra_pinyin
-  - schema: pinyin123 # 郑码反查依赖于此库
 
 switcher:
   caption: 〔方案选单〕

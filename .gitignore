@@ -1,6 +1,6 @@
-/build/*
-*.userdb
-user.yaml
-/sync/*
-installation.yaml
 .place_holder
+installation.yaml
+user.yaml
+*.userdb
+/build/*
+/sync/*
