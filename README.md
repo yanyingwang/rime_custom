@@ -1,8 +1,3 @@
-
-注意：旧版请见old文件。
-======
-
-
 rime_custom
 ======
 为[Rime输入法](http://rime.im/)增加扩展词库并自定义Rime设置。
@@ -18,7 +13,7 @@ rime_custom
 
 
 ## 安装
-不同系统的词库目标位置如下表：
+首先不同系统的词库目标位置如下表：
 
 | 系统   |    词库目录         |
 |--------|---------------------|
@@ -27,15 +22,16 @@ rime_custom
 | Mac OS | ~/Library/Rime      |
 |Windows | %APPDATA%\Rime      |
 
-以Linux系统的fcitx为例：
+
+以Linux系统的fcitx为例，执行如下命令删除rime的系统配置目录，并软连接本源目录到rime配置目录：
+
 ```shell
 rm -rf ~/.config/fcitx/rime
 ln -sf ~/rime_custom ~/.config/fcitx/rime
 ls -ld ~/.config/fcitx/rime
 ```
 
-## 重新部署
-重新部署，即可生效。
+然后重新部署，即可生效。
 
 
 
