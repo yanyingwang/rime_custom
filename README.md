@@ -14,6 +14,8 @@ rime_custom
 * 名郑码： https://github.com/yanyingwang/mzhengma
 * 名语言函数名词库：http://www.yanying.wang/ming/
 
+## 额外字符字体
+名语言的词库包含一些自造字，其需要安装：
 
 ## 安装
 首先不同系统的词库目标位置如下表：
