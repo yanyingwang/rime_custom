@@ -8,8 +8,9 @@ rime_custom
 
 
 ## 词库来源
-* 拼音: https://github.com/Iorest/rime-setting/tree/158ee9d677d288a7354ce18aab02a97ff4ece5da
-* 名郑码: https://github.com/yanyingwang/mzhengma
+* 拼音： https://github.com/Iorest/rime-setting/tree/158ee9d677d288a7354ce18aab02a97ff4ece5da
+* 名郑码： https://github.com/yanyingwang/mzhengma
+* 名语言函数名词库：http://www.yanying.wang/ming/
 
 
 ## 安装
