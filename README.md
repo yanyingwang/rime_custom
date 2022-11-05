@@ -3,8 +3,10 @@ rime_custom
 为[Rime输入法](http://rime.im/)增加扩展词库并自定义Rime设置。
 
 
-## 配置文件
-* 双拼方案请见官方repo： https://github.com/rime/rime-double-pinyin
+## 输入法方案
+* 明月拼音：与朙月拼音相同，只为简体而生。
+* 名郑码：https://github.com/yanyingwang/mzhengma
+* 小鹤双拼：https://github.com/rime/rime-double-pinyin
 
 
 ## 词库来源
