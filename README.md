@@ -40,3 +40,5 @@ ls -ld ~/.config/fcitx/rime
 
 
 
+## debug
+在部署的时候，可以使用`tail -f /tmp/rime.fcitx-rime.*`命令来显示日志信息以debug。
