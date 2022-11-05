@@ -1,0 +1,25 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 「Rime词库扩展计划」——为RIME打造一个强大好用的词库
+---
+name: ming_lang
+version: "20201105"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+􏿬	lei
+􏿭	gou
+􏿮	shi
+􏿴	shuo
+􏿳	shun
+􏿲	zhao
+􏿱	bang
+􏿰	shuang
+􏿯	you
+𬤏	du
+􏿸	kou
+􏿷	shi
+􏿶	zou
+

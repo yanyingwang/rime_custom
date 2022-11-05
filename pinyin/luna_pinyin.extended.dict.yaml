@@ -42,14 +42,22 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
+  - luna_pinyin.extended.dicts/ming_lang
+  - luna_pinyin.extended.dicts/luna_pinyin
+  - luna_pinyin.extended.dicts/luna_pinyin.basis
+  - luna_pinyin.extended.dicts/luna_pinyin.comprehensive
+  - luna_pinyin.extended.dicts/luna_pinyin.sougou
   - luna_pinyin.extended.dicts/luna_pinyin.sougou.basic
-  - luna_pinyin.extended.dicts/luna_pinyin.popular
+  - luna_pinyin.extended.dicts/luna_pinyin.sougou.conprehensive
   - luna_pinyin.extended.dicts/luna_pinyin.xiandaihanyu
   - luna_pinyin.extended.dicts/luna_pinyin.chengyusuyu
+  - luna_pinyin.extended.dicts/luna_pinyin.popular
+  - luna_pinyin.extended.dicts/luna_pinyin.chat
+  - luna_pinyin.extended.dicts/luna_pinyin.poetry
+  - luna_pinyin.extended.dicts/luna_pinyin.classical
   - luna_pinyin.extended.dicts/luna_pinyin.computer
   - luna_pinyin.extended.dicts/luna_pinyin.kaifa
-  - luna_pinyin.extended.dicts/luna_pinyin.poetry
-  - luna_pinyin.extended.dicts/luna_pinyin.chat
   - luna_pinyin.extended.dicts/luna_pinyin.place
   - luna_pinyin.extended.dicts/luna_pinyin.shopping
   - luna_pinyin.extended.dicts/luna_pinyin.website
+  - luna_pinyin.extended.dicts/essay
