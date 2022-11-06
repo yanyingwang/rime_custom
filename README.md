@@ -39,7 +39,7 @@ rime_custom
 |Windows | %APPDATA%\Rime      |
 
 
-以Linux系统的fcitx为例，执行如下命令删除rime的系统配置目录，并软连接本源目录到rime配置目录：
+以Ubuntu系统的fcitx4为例，执行如下命令删除rime的系统配置目录，并软连接本源目录到rime配置目录：
 
 ```shell
 rm -rf ~/.config/fcitx/rime
