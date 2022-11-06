@@ -44,9 +44,9 @@ use_preset_vocabulary: true
 import_tables:
   - mzhengma.dict/ming-lang
   - pinyin-extended.dict/ming_lang
-  # - pinyin-extended.dict/luna_pinyin
-  # - pinyin-extended.dict/luna_pinyin.basis
-  # - pinyin-extended.dict/luna_pinyin.comprehensive
+  - pinyin-extended.dict/luna_pinyin
+  - pinyin-extended.dict/luna_pinyin.basis
+  - pinyin-extended.dict/luna_pinyin.comprehensive
   - pinyin-extended.dict/luna_pinyin.sougou
   - pinyin-extended.dict/luna_pinyin.sougou.basic
   - pinyin-extended.dict/luna_pinyin.sougou.conprehensive
