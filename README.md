@@ -2,6 +2,7 @@ rime_custom
 ======
 自定义化的[Rime输入法](http://rime.im/)以及输入方案和词库。
 
+官方文档请见:  https://github.com/rime/home/wiki/CustomizationGuide
 
 ## 快捷键
 如果一个人要觉得一个软件好用，一定是建立在充分了解此软件的基础上的。<br>
