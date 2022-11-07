@@ -1,7 +1,7 @@
 # Rime default settings
 # encoding: utf-8
 
-config_version: "0.38"
+config_version: "0.40"
 
 schema_list:
   - schema: double_pinyin_flypy
