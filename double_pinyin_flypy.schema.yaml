@@ -15,13 +15,13 @@ schema:
 
 switches:
   - name: ascii_mode
-    reset: 0
     states: [ 中文, 西文 ]
+    reset: 0
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
-    reset: 1
     states: [ 漢字, 汉字 ]
+    reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
 
