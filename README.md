@@ -15,9 +15,9 @@ rime_custom
 
 
 ## 输入法方案
-* 明月拼音：与朙月拼音相同，只为简体而生。
-* 名郑码：https://github.com/yanyingwang/mzhengma
+* 明月拼音：与朙月拼音相同，修改为简体显示。
 * 小鹤双拼：https://github.com/rime/rime-double-pinyin
+* 名郑码：https://github.com/yanyingwang/mzhengma
 
 
 ## 词库来源
@@ -28,29 +28,25 @@ rime_custom
 ## 额外字符字体
 名语言的词库包含一些自造字，其需要安装字体：https://github.com/yanyingwang/favfonts/tree/master/WenQuanWeiMiHeiExtend
 
+
 ## 安装
 首先不同系统的词库目标位置如下表：
 
 | 系统   |    词库目录         |
 |--------|---------------------|
-| Linux - ibus  | ~/.config/ibus/rime <--> /usr/share/rime-data|
-| Linux - fcitx | ~/.config/fcitx/rime |
+| Linux - fcitx5 | ~/.local/share/fcitx5/rime |
 | Mac OS | ~/Library/Rime      |
 |Windows | %APPDATA%\Rime      |
 
 
-以Ubuntu系统的fcitx4为例，执行如下命令删除rime的系统配置目录，并软连接本源目录到rime配置目录：
+以Ubuntu 20.04系统的fcitx5为例（[需使用flatpak安装](https://www.yanying.wang/2022/11/how-to-run-fcitx5-and-rime-on-ubuntu-20-04.html)）:
 
 ```shell
-rm -rf ~/.config/fcitx/rime
-ln -sf ~/rime_custom ~/.config/fcitx/rime
-ls -ld ~/.config/fcitx/rime
+cd ~/.local/share/fcitx5 &&\
+rm -rf rime &&\
+git clone https://github.com/yanyingwang/rime_custom rime &&\
+ln -sf ~/.local/share/fcitx5/rime ~/rime_custom # for easily accessing configure directory of fcitx5-rime
 ```
 
 然后重新部署，即可生效。
-
-
-## debug
-在部署的时候，可以使用`tail -f /tmp/rime.fcitx-rime.*`命令来显示日志信息以debug。
-
 
