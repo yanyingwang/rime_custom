@@ -28,6 +28,6 @@ version: "2.0"
 sort: original
 
 import_tables:
-  - mzhengma.dict/ming-lang
-  - mzhengma.dict/large-collection
-  - mzhengma.dict/jidian-qinghua
+  - mzhengma.dict/ming_lang
+  - mzhengma.dict/large_collection
+  - mzhengma.dict/jidian_qinghua
