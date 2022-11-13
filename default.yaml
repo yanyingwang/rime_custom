@@ -77,8 +77,8 @@ punctuator:
   half_shape:
     ',' : { commit: ， }
     '.' : { commit: 。 }
-    '<' : [ 《, 〈, «, ‹ ]
-    '>' : [ 》, 〉, », › ]
+    '<' : [ 《, 〈, «, ‹ < ]
+    '>' : [ 》, 〉, », › > ]
     '/' : [ 、, '/', ／, ÷ ]
     '?' : { commit: ？ }
     ';' : { commit: ； }
@@ -103,10 +103,10 @@ punctuator:
     '_' : ——
     '+' : '+'
     '=' : '='
-    '[' : [ 「, 【, 〔, ［ ]
-    ']' : [ 」, 】, 〕,  ］ ]
-    '{' : [ 『, 〖, ｛ ]
-    '}' : [ 』, 〗, ｝ ]
+    '[' : [ 「, 【, 〔, ［ ,'[' ]
+    ']' : [ 」, 】, 〕,  ］, ']' ]
+    '{' : [ 『, 〖, ｛, '{' ]
+    '}' : [ 』, 〗, ｝, '}' ]
 
 key_binder:
   bindings:
@@ -157,8 +157,8 @@ recognizer:
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
-    Shift_L: inline_ascii # inline_ascii commit_code commit_text
-    Shift_R: commit_text
+    Shift_L: noop # inline_ascii # inline_ascii commit_code commit_text
+    Shift_R: noop # commit_text
     Control_L: noop
     Control_R: noop
     Caps_Lock: clear
