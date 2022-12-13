@@ -4,6 +4,7 @@
 config_version: "0.40"
 
 schema_list:
+  - schema: double_pinyin_mzhengflypy
   - schema: double_pinyin_flypy
   - schema: mzhengma
   - schema: easy_en
