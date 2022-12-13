@@ -74,17 +74,18 @@ punctuator:
     ']' : [ 」, 】, 〕, ］ ]
     '{' : [ 『, 〖, ｛ ]
     '}' : [ 』, 〗, ｝ ]
+
   half_shape:
     ',' : [ ，, ',' ] #{ commit: ， }
-    '.' : [。, '.' ] #{ commit: 。 }
+    '.' : [ 。, '.' ] #{ commit: 。 }
     '<' : [ '<',《, 〈, « ]
     '>' : [ '>', 》, 〉, », › ]
     '/' : [ 、, '/', ／, ÷ ]
     '?' : [ ？,  '?'] #{ commit: ？ }
     ';' : [ ；,  ';'] #{ commit: ； }
     ':' : [ ：,  ':'] #{ commit: ： }
-    '''' : { pair: [ '‘', '’' ] }
-    '"' : { pair: [ '“', '”' ] }
+    '''' : [ '‘’', "'" ] #{ pair: [ '‘', '’' ] }
+    '"' : [ '“”', '"' ] #{ pair: [ '“', '”' ] }
     '\' : [ 、, '\', ＼ ]
     '|' : [ ·, '|', ｜, '§', '¦' ]
     '`' : '`'
@@ -93,14 +94,14 @@ punctuator:
     '@' : '@'
     '#' : '#'
     '%' : [ '%', ％, '°', '℃' ]
-    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
-    '^' : [ ……, '^']# { commit: …… }
+    '$' : [ '$', ￥, '€', '£', '¥', '¢', '¤' ]
+    '^' : [ '^', …… ] # { commit: …… }
     '&' : '&'
-    '*' : [ ＊, '*', ·, ・, ×, ※, ❂ ]
+    '*' : [ '*',＊, ·, ・, ×, ※, ❂ ]
     '(' : [ （, '(' ] #（
     ')' : [ ）, ')' ] #）
     '-' : [ '—', '-' ]
-    '_' : [ '——', '_' ]
+    '_' : [ '_', '——' ]
     '+' : '+'
     '=' : '='
     '[' : [ 【, '[', 「, 〔, ［ ]
@@ -126,8 +127,10 @@ key_binder:
     - { when: composing, accept: Control+v, send: Page_Down }
     # move by word
     - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
-    - { when: composing, accept: Shift+Tab, send: Shift+Left }
-    - { when: composing, accept: Tab, send: Shift+Right }
+    # - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    # - { when: composing, accept: Tab, send: Shift+Right }
+    - { when: composing, accept: Shift+Tab, send: Up }
+    - { when: composing, accept: Tab, send: Down }
     # flip page
     - { when: has_menu, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
@@ -158,7 +161,7 @@ ascii_composer:
   good_old_caps_lock: true
   switch_key:
     Shift_L: noop # inline_ascii # inline_ascii commit_code commit_text
-    Shift_R: noop # commit_text
+    Shift_R: noop # commit_text # commit_text noop
     Control_L: noop
     Control_R: noop
     Caps_Lock: clear

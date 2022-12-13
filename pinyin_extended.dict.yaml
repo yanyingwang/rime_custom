@@ -43,9 +43,10 @@ use_preset_vocabulary: true
 
 import_tables:
   - mzhengma.dict/ming_lang
+  - mzhengma.dict/characters
   #- mzhengma.dict/jidian_qinghua
   #- mzhengma.dict/large_collection
-  - pinyin_extended.dict/ming_lang
+  #- pinyin_extended.dict/ming_lang
   - pinyin_extended.dict/luna_pinyin
   - pinyin_extended.dict/luna_pinyin.basis
   # - pinyin_extended.dict/luna_pinyin.comprehensive

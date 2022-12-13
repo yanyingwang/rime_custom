@@ -42,18 +42,18 @@ encoder:
 ...
 
 
-􏿸	jf
-􏿷	gf
-􏿶	dr
+# 􏿸	jf
+# 􏿷	gf
+# 􏿶	dr
 # ---------------
-􏿽	pby 
-􏿼	drbb
-􏿻	pgby
-􏿺	gfvb
-㘝	jaby
-𨑱	pbby
-𰙪	tbby
-𭠎	aby
+# 􏿽	pby
+# 􏿼	drbb
+# 􏿻	pgby
+# 􏿺	gfvb
+# 㘝	jaby
+# 𨑱	pbby
+# 𰙪	tbby
+# 𭠎	aby
 # ---------------
 􏿴	byry
 􏿪	byrf
@@ -70,24 +70,84 @@ encoder:
 􏿦	fcby
 # ---------------
 𬤏	yuvb
-􏿹	pybb
+# 􏿹	pybb
 􏿬	pyix
 􏿭	pyqm
 # ---------------
-􏿣	rhxd
-􏿥	rhxd
-􏿢	rhxj
-􏿤	rhxj
-􏿡	txdr
-􏿠	txjr
-􏿟	txdi
-􏿞	txji
+# 􏿣	rhxd
+# 􏿥	rhxd
+# 􏿢	rhxj
+# 􏿤	rhxj
+# 􏿡	txdr
+# 􏿠	txjr
+# 􏿟	txdi
+# 􏿞	txji
+# ---------------
+# 􏿖	txdl
+# 􏿕	txla
+# 􏿔	rhla
+# 􏿕	txla
+# 􏿔	rhla
+# ---------------
+# 􏿓	txla
+# 􏿒	txla
+# 􏿑	txla
+􏿐	trxd
+􏿏	trxj
+􏿎	rhxd
+􏿍	rhxj
+# 􏿌	txra
+# 􏿋	rhra
+# ---------------
+􏿈	txrn
+􏿇	txrn
+􏿆	rhrn
+􏿅	rhrn
+# ---------------
 􏿝	mnbr
 􏿜	mnbb
-# ---------------
 􏿛	thbr
+# 􏿗	habr
+# ---------------
+徝	rhvl
+笈	gng
 􏿚	gqqn
 􏿚	gqng
-􏿙	gqnr
-􏿘	gnry
-􏿗	habr
+􏿊	tgng
+􏿉	tgqn
+# 􏿙	gqnr
+# 􏿘	gnry
+# ---------------
+􏿄	trkd
+􏿃	tame
+# 􏿂	raba
+􏿁	kbay
+􏿁	kba
+𬩽	ban
+# 􏾿	tban
+# 􏾾	rygp
+# ---------------
+􏿀      tskd
+􏾽	ckfp
+􏾼	ryfp
+􏾻	rckp
+𮞑	qjp
+𮞑	qyjp
+𨚞	xjn
+􏾺	xadn
+􏾺	xdn
+􏾹	rydn
+􏾸	ryjn
+􏾷	tym
+􏾶	ryrn
+􏾴	tgls
+􏾳	wwkp
+􏾲	okep
+􏾱	kqrl
+􏾰	kqtl
+􏾯	ictl
+􏾮	eala
+􏾭	tola
+􏾬	laea
+􏾫	tkla
+􏾪	tila
