@@ -50,18 +50,18 @@ import_tables:
   - pinyin_extended.dict/luna_pinyin
   - pinyin_extended.dict/luna_pinyin.basis
   # - pinyin_extended.dict/luna_pinyin.comprehensive
-  #- pinyin_extended.dict/luna_pinyin.sougou
-  #- pinyin_extended.dict/luna_pinyin.sougou.basic
+  - pinyin_extended.dict/luna_pinyin.sougou
+  - pinyin_extended.dict/luna_pinyin.sougou.basic
   #- pinyin_extended.dict/luna_pinyin.sougou.conprehensive
-  - pinyin_extended.dict/luna_pinyin.xiandaihanyu
-  - pinyin_extended.dict/luna_pinyin.chengyusuyu
-  - pinyin_extended.dict/luna_pinyin.popular
-  - pinyin_extended.dict/luna_pinyin.chat
-  - pinyin_extended.dict/luna_pinyin.poetry
-  - pinyin_extended.dict/luna_pinyin.classical
-  - pinyin_extended.dict/luna_pinyin.computer
-  - pinyin_extended.dict/luna_pinyin.kaifa
-  - pinyin_extended.dict/luna_pinyin.place
-  - pinyin_extended.dict/luna_pinyin.shopping
-  - pinyin_extended.dict/luna_pinyin.website
-  - pinyin_extended.dict/essay
+  #- pinyin_extended.dict/luna_pinyin.xiandaihanyu
+  #- pinyin_extended.dict/luna_pinyin.chengyusuyu
+  #- pinyin_extended.dict/luna_pinyin.popular
+  #- pinyin_extended.dict/luna_pinyin.chat
+  #- pinyin_extended.dict/luna_pinyin.poetry
+  #- pinyin_extended.dict/luna_pinyin.classical
+  #- pinyin_extended.dict/luna_pinyin.computer
+  #- pinyin_extended.dict/luna_pinyin.kaifa
+  #- pinyin_extended.dict/luna_pinyin.place
+  #- pinyin_extended.dict/luna_pinyin.shopping
+  #- pinyin_extended.dict/luna_pinyin.website
+  #- pinyin_extended.dict/essay

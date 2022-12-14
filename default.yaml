@@ -5,10 +5,10 @@ config_version: "0.40"
 
 schema_list:
   - schema: double_pinyin_mzhengflypy
-  - schema: double_pinyin_flypy
+    #- schema: double_pinyin_flypy
   - schema: mzhengma
   - schema: easy_en
-  - schema: muna_pinyin
+    #- schema: muna_pinyin
   - schema: pinyin123 # 郑码反查依赖于此库
     #- schema: luna_pinyin
     #- schema: luna_pinyin_fluency
