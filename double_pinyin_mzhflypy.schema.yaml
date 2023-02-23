@@ -2,17 +2,16 @@
 # encoding: utf-8
 
 schema:
-  schema_id: double_pinyin_mzhengflypy
-  name: 酩（小鹤名郑双拼）
+  schema_id: double_pinyin_mzhflypy
+  name: 酩鹤输入法
   version: "0.18"
   author:
-    - double pinyin layout by 鹤
-    - mzhengma layout
+    - double pinyin layout by 鹤 & ming-lang & zhengma
     - Rime schema by 佛振 <chen.sst@gmail.com>
   description: |
-    明月拼音＋小鹤双拼+名郑码单字方案。
+    明月拼音＋小鹤双拼＋名语言＋名郑码小方案。
   dependencies:
-    - pinyin123
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -87,8 +86,8 @@ speller:
     #- abbrev/^(.).+$/$1/
 
 translator:
-  dictionary: pinyin_mzhengma_extended
-  prism: double_pinyin_mzhengflypy
+  dictionary: mzhpinyin_extended
+  prism: double_pinyin_mzhflypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
@@ -123,6 +122,16 @@ translator:
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
+#reverse_lookup:
+  #dictionary: stroke
+  #enable_completion: true
+  #prefix: "`"
+  #suffix: "'"
+  #tips: 〔筆畫〕
+  #preedit_format:
+    #- xlit/hspnz/一丨丿丶乙/
+  #comment_format:
+    #- xform/([nl])v/$1ü/
 reverse_lookup:
   dictionary: pinyin123
   prefix: "`"

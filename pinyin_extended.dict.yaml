@@ -42,10 +42,9 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  #- pinyin_extended.dict/ming_lang
   - pinyin_extended.dict/luna_pinyin
   - pinyin_extended.dict/luna_pinyin.basis
-  # - pinyin_extended.dict/luna_pinyin.comprehensive
+  #- pinyin_extended.dict/luna_pinyin.comprehensive
   - pinyin_extended.dict/luna_pinyin.sougou
   - pinyin_extended.dict/luna_pinyin.sougou.basic
   #- pinyin_extended.dict/luna_pinyin.sougou.conprehensive

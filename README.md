@@ -36,6 +36,7 @@ Rime在快捷键的自定义上，提供的非常高的自由度，以下为我�
 | 系统   |    词库目录         |
 |--------|---------------------|
 | Linux - fcitx5 | ~/.local/share/fcitx5/rime |
+| Linux - fcitx  | ~/.config/fcitx/rime |
 | Mac OS | ~/Library/Rime      |
 |Windows | %APPDATA%\Rime      |
 
