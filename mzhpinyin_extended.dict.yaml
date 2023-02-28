@@ -65,4 +65,5 @@ import_tables:
   #- mzhengma.dict/large_collection
   #- mzhengma.dict/jidian_qinghua
   #- mzhengma.dict/characters
+  - mzhengma.dict/ming_lang.basic
   - mzhengma.dict/ming_lang
