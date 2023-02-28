@@ -3,7 +3,7 @@
 
 schema:
   schema_id: mzhengma
-  name: "名郑码"
+  name: "郑码(名)"
   version: "1.0"
   author:
     - 發明人 郑易里教授

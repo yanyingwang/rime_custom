@@ -5,16 +5,6 @@ sort: original
 columns:
   - code
   - text
-  
-encoder:
-  rules:
-    - length_equal: 2
-      formula: "AaAbBaBb"
-    - length_equal: 3
-      formula: "AaBaBbCa"
-    - length_in_range: [4, 10]
-      formula: "AaBaCaDa"
-  tail_anchor: "'"
 ...
 
 
