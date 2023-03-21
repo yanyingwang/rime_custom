@@ -1,0 +1,33 @@
+
+---
+name: ming_lang.pchar
+version: "2.0"
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaBbCaCb"
+    - length_equal: 4
+      formula: "AaBaCaDaDb"
+    - length_in_range: [5, 10]
+      formula: "AaBaCaDaEa"
+...
+
+
+亻	tfff
+刂	kaf
+扌	afff
+阝	nfff
+廴	nfff
+辶	pfff
+卩	nfff
+㐅	ryff
+乂	ryff
+乄	ryff
+𠂭	ryff
+
