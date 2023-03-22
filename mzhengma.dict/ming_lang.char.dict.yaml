@@ -1,6 +1,6 @@
 
 ---
-name: ming_lang.pchar
+name: ming_lang.char
 version: "2.0"
 sort: original
 columns:
@@ -29,5 +29,5 @@ encoder:
 㐅	ryff
 乂	ryff
 乄	ryff
-𠂭	ryff
+λ	raf
 
