@@ -1,0 +1,36 @@
+# Rime dictionary
+# encoding: utf-8
+#
+---
+name: flypy_asdfzma
+version: "2016.06.26"
+sort: by_weight
+use_preset_vocabulary: true
+
+import_tables:
+  - dicts/pinyin/essay
+  - dicts/pinyin/luna_pinyin.website
+  - dicts/pinyin/luna_pinyin.shopping
+  - dicts/pinyin/luna_pinyin.place
+  - dicts/pinyin/luna_pinyin.kaifa
+  - dicts/pinyin/luna_pinyin.computer
+  - dicts/pinyin/luna_pinyin.classical
+  - dicts/pinyin/luna_pinyin.poetry
+  - dicts/pinyin/luna_pinyin.chat
+  - dicts/pinyin/luna_pinyin.popular
+  - dicts/pinyin/luna_pinyin.chengyusuyu
+  - dicts/pinyin/luna_pinyin.xiandaihanyu
+  #- dicts/pinyin/luna_pinyin.sougou.conprehensive
+  #- dicts/pinyin/luna_pinyin.comprehensive
+  - dicts/pinyin/luna_pinyin.sougou.basic
+  - dicts/pinyin/luna_pinyin.basis
+  - dicts/pinyin/luna_pinyin.sougou
+  - dicts/pinyin/luna_pinyin
+  #- dicts/pinyin/ming_lang
+  #---------------------------
+  #- dicts/asdfzma/large_collection
+  #- dicts/asdfzma/jidian_qinghua
+  #- dicts/asdfzma/characters
+  #- dicts/asdfzma/ming_lang.basic
+  - dicts/asdfzma/ming_lang.char
+  - dicts/asdfzma/ming_lang

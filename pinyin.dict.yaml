@@ -34,7 +34,7 @@
 #
 
 ---
-name: mzhpinyin_extended
+name: pinyin
 version: "2016.06.26"
 sort: by_weight  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: true
@@ -42,29 +42,21 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - pinyin_extended.dict/essay
-  - pinyin_extended.dict/luna_pinyin.website
-  - pinyin_extended.dict/luna_pinyin.shopping
-  - pinyin_extended.dict/luna_pinyin.place
-  - pinyin_extended.dict/luna_pinyin.kaifa
-  - pinyin_extended.dict/luna_pinyin.computer
-  - pinyin_extended.dict/luna_pinyin.classical
-  - pinyin_extended.dict/luna_pinyin.poetry
-  - pinyin_extended.dict/luna_pinyin.chat
-  - pinyin_extended.dict/luna_pinyin.popular
-  - pinyin_extended.dict/luna_pinyin.chengyusuyu
-  - pinyin_extended.dict/luna_pinyin.xiandaihanyu
-  #- pinyin_extended.dict/luna_pinyin.sougou.conprehensive
-  #- pinyin_extended.dict/luna_pinyin.comprehensive
-  - pinyin_extended.dict/luna_pinyin.sougou.basic
-  - pinyin_extended.dict/luna_pinyin.basis
-  - pinyin_extended.dict/luna_pinyin.sougou
-  - pinyin_extended.dict/luna_pinyin
-  #- pinyin_extended.dict/ming_lang
-  #
-  #- mzhengma.dict/large_collection
-  #- mzhengma.dict/jidian_qinghua
-  #- mzhengma.dict/characters
-  - mzhengma.dict/ming_lang.basic
-  - mzhengma.dict/ming_lang.char
-  - mzhengma.dict/ming_lang
+  - dicts/pinyin/luna_pinyin
+  - dicts/pinyin/luna_pinyin.basis
+  #- dicts/pinyin/luna_pinyin.comprehensive
+  - dicts/pinyin/luna_pinyin.sougou
+  - dicts/pinyin/luna_pinyin.sougou.basic
+  #- dicts/pinyin/luna_pinyin.sougou.conprehensive
+  - dicts/pinyin/luna_pinyin.xiandaihanyu
+  - dicts/pinyin/luna_pinyin.chengyusuyu
+  - dicts/pinyin/luna_pinyin.popular
+  - dicts/pinyin/luna_pinyin.chat
+  - dicts/pinyin/luna_pinyin.poetry
+  - dicts/pinyin/luna_pinyin.classical
+  - dicts/pinyin/luna_pinyin.computer
+  - dicts/pinyin/luna_pinyin.kaifa
+  - dicts/pinyin/luna_pinyin.place
+  - dicts/pinyin/luna_pinyin.shopping
+  - dicts/pinyin/luna_pinyin.website
+  - dicts/pinyin/essay

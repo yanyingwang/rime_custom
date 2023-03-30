@@ -2,14 +2,15 @@
 # encoding: utf-8
 
 schema:
-  schema_id: mzhengma
-  name: "郑码(名)"
+  schema_id: asdfzma
+  name: 踯=键序郑码
   version: "1.0"
   author:
-    - 發明人 郑易里教授
+    - 发明人 郑易里教授
+    - 修改人 王彦迎
   description: |
-    名郑码
-    碼表源自 fcitx-table-extra/zhengma-large 后经转换
+    键序郑码
+    碼表源自 fcitx-table-extra/zhengma-large 后经转换并把按照ABCD字母表排序的编码修改为按照键盘分布方式来排序：FDSAVCXZ为横起笔区；HJKL为竖起笔区；GTREWQ撇；YUIOP捺；BNM折。
     敲 ` 鍵進入拼音反查
   dependencies:
     - pinyin123
@@ -47,7 +48,7 @@ speller:
   max_code_length: 5
 
 translator:
-  dictionary: mzhengma
+  dictionary: asdfzma
   enable_sentence: true
   enable_encoder: true
   encode_commit_history: true

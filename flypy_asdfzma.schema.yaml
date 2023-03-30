@@ -2,14 +2,16 @@
 # encoding: utf-8
 
 schema:
-  schema_id: double_pinyin_flypy
-  name: 小鹤双拼
+  schema_id: flypy_asdfzma
+  name: 联=小鹤双拼+键序郑码
   version: "0.18"
   author:
-    - double pinyin layout by 鹤
     - Rime schema by 佛振 <chen.sst@gmail.com>
+    - double pinyin layout by 鹤
+    - zhengma original layout by ZhengYili
+    - asdfzma  by YanyingWang <yanyingwang1@gmail.com>
   description: |
-    明月拼音＋小鹤双拼方案。
+    明月拼音＋小鹤双拼＋键序郑码方案。
   dependencies:
     - stroke
 
@@ -44,10 +46,11 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
+    - table_translator 
     - script_translator
   filters:
     - simplifier
-    - uniquifier
+    #- uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -86,8 +89,8 @@ speller:
     #- abbrev/^(.).+$/$1/
 
 translator:
-  dictionary: pinyin_extended
-  prism: double_pinyin_flypy
+  dictionary: flypy_asdfzma
+  prism: flypy_asdfzma
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/

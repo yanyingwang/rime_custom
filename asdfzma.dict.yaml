@@ -1,0 +1,9 @@
+---
+name: asdfzma
+version: "2.0"
+sort: original
+
+import_tables:
+  - dicts/asdfzma/ming_lang
+  - dicts/asdfzma/large_collection
+  - dicts/asdfzma/jidian_qinghua
