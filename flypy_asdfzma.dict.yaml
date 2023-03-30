@@ -30,7 +30,7 @@ import_tables:
   #---------------------------
   #- dicts/asdfzma/large_collection
   #- dicts/asdfzma/jidian_qinghua
-  #- dicts/asdfzma/characters
-  #- dicts/asdfzma/ming_lang.basic
+  - dicts/asdfzma/characters
+  - dicts/asdfzma/ming_lang.basic
   - dicts/asdfzma/ming_lang.char
   - dicts/asdfzma/ming_lang

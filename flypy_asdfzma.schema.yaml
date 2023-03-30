@@ -46,11 +46,11 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator 
     - script_translator
+    - table_translator 
   filters:
     - simplifier
-    #- uniquifier
+    - uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
