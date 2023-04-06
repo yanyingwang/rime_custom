@@ -49,16 +49,16 @@ engine:
     - script_translator
     - table_translator 
   filters:
-    - simplifier
+    #- simplifier
     - uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - erase/^xx$/
-    - derive/^([jqxy])u$/$1v/
-    - derive/^([aoe])([ioun])$/$1$1$2/
+    #- erase/^xx$/
+      #- derive/^([jqxy])u$/$1v/
+      #- derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/iu$/Q/
     - xform/(.)ei$/$1W/
@@ -86,7 +86,7 @@ speller:
     - xform/ui$/V/
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
-    #- abbrev/^(.).+$/$1/
+      #- abbrev/^(.).+$/$1/
 
 translator:
   dictionary: flypy_asdfzma
