@@ -16,14 +16,12 @@ Rime在快捷键的自定义上，提供的非常高的自由度，以下为我�
 
 
 ## 输入法方案
-* 明月拼音：与朙月拼音相同，修改为简体显示。
-* 小鹤双拼：https://github.com/rime/rime-double-pinyin
-* 名郑码：https://github.com/yanyingwang/mzhengma
+* 键序郑码：https://github.com/yanyingwang/asdfma
 
 
 ## 词库来源
-* 拼音： https://github.com/Iorest/rime-setting/tree/158ee9d677d288a7354ce18aab02a97ff4ece5da
-* 名郑码： https://github.com/yanyingwang/mzhengma
+* 拼音：https://github.com/iDvel/rime-ice
+* 键序郑码： https://github.com/yanyingwang/asdfma
 * 名语言函数名词库：http://www.yanying.wang/ming/
 
 ## 额外字符字体

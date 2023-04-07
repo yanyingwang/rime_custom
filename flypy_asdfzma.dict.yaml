@@ -8,26 +8,13 @@ sort: by_weight
 use_preset_vocabulary: true
 
 import_tables:
-  - dicts/pinyin/essay
-  - dicts/pinyin/luna_pinyin.website
-  - dicts/pinyin/luna_pinyin.shopping
-  - dicts/pinyin/luna_pinyin.place
-  - dicts/pinyin/luna_pinyin.kaifa
-  - dicts/pinyin/luna_pinyin.computer
-  - dicts/pinyin/luna_pinyin.classical
-  - dicts/pinyin/luna_pinyin.poetry
-  - dicts/pinyin/luna_pinyin.chat
-  - dicts/pinyin/luna_pinyin.popular
-  - dicts/pinyin/luna_pinyin.chengyusuyu
-  - dicts/pinyin/luna_pinyin.xiandaihanyu
-  #- dicts/pinyin/luna_pinyin.sougou.conprehensive
-  #- dicts/pinyin/luna_pinyin.comprehensive
-  - dicts/pinyin/luna_pinyin.sougou.basic
-  - dicts/pinyin/luna_pinyin.basis
-  - dicts/pinyin/luna_pinyin.sougou
-  - dicts/pinyin/luna_pinyin
-  #- dicts/pinyin/ming_lang
-  #---------------------------
+  - dicts/wusong_pinyin/8105     # 字表
+  # - dicts/wusong_pinyin/41448  # 大字表（按需启用）
+  - dicts/wusong_pinyin/base     # 基础词库
+  - dicts/wusong_pinyin/sogou    # 搜狗流行词
+  - dicts/wusong_pinyin/ext      # 扩展词库
+  #- dicts/wusong_pinyin/tencent  # 腾讯词向量（大词库，部署时间较长）
+  ## ---------------------------
   #- dicts/asdfzma/large_collection
   #- dicts/asdfzma/jidian_qinghua
   - dicts/asdfzma/characters
