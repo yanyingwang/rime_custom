@@ -20,12 +20,9 @@ Rime在快捷键的自定义上，提供的非常高的自由度，以下为我�
 
 
 ## 词库来源
-* 拼音：https://github.com/iDvel/rime-ice
+* 简体拼音：https://github.com/iDvel/rime-ice
 * 键序郑码： https://github.com/yanyingwang/asdfma
-* 名语言函数名词库：http://www.yanying.wang/ming/
-
-## 额外字符字体
-名语言的词库包含一些自造字，其需要安装字体：https://github.com/yanyingwang/favfonts/tree/master/WenQuanWeiMiHeiExtend
+* 名语言新造字：https://github.com/yanyingwang/cangjie
 
 
 ## 安装

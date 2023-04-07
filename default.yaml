@@ -6,7 +6,7 @@ config_version: "0.40"
 schema_list:
   - schema: flypy_asdfzma
   - schema: asdfzma
-  #- schema: flypy
+  - schema: flypy
   - schema: melt_eng
   - schema: pinyin123 # 郑码反查依赖于此库
     #- schema: luna_pinyin
