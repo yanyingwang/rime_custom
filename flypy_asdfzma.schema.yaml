@@ -9,7 +9,7 @@ schema:
     - Rime schema by 佛振 <chen.sst@gmail.com>
     - double pinyin layout by 鹤
     - zhengma original layout by ZhengYili
-    - asdfzma  by YanyingWang <yanyingwang1@gmail.com>
+    - asdfzma by YanyingWang <yanyingwang1@gmail.com>
   description: |
     明月拼音＋小鹤双拼＋键序郑码方案。
   dependencies:
