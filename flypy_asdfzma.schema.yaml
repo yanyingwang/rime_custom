@@ -13,7 +13,8 @@ schema:
   description: |
     明月拼音＋小鹤双拼＋键序郑码方案。
   dependencies:
-    - stroke
+    # - stroke
+    - pinyin123
 
 switches:
   - name: ascii_mode
@@ -46,8 +47,8 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - script_translator
-    - table_translator 
+    - script_translator  #### 
+    - table_translator
   filters:
     #- simplifier
     - uniquifier
@@ -86,9 +87,10 @@ speller:
     - xform/ui$/V/
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
-    - abbrev/^(.).+$/$1/
+    #- abbrev/^(.).+$/$1/
 
 translator:
+  # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
   dictionary: flypy_asdfzma
   prism: flypy_asdfzma
   preedit_format:
@@ -125,16 +127,6 @@ translator:
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
-#reverse_lookup:
-  #dictionary: stroke
-  #enable_completion: true
-  #prefix: "`"
-  #suffix: "'"
-  #tips: 〔筆畫〕
-  #preedit_format:
-    #- xlit/hspnz/一丨丿丶乙/
-  #comment_format:
-    #- xform/([nl])v/$1ü/
 reverse_lookup:
   dictionary: pinyin123
   prefix: "`"
