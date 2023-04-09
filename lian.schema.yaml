@@ -2,18 +2,20 @@
 # encoding: utf-8
 
 schema:
-  schema_id: flypy_asdfzma
-  name: 联=小鹤双拼+键序郑码
+  schema_id: lian
+  name: 联
   version: "0.18"
   author:
-    - Rime schema by 佛振 <chen.sst@gmail.com>
     - double pinyin layout by 鹤
     - zhengma original layout by ZhengYili
-    - asdfzma by YanyingWang <yanyingwang1@gmail.com>
+    - asdfzma modified layout by YanyingWang <yanyingwang1@gmail.com>
   description: |
-    明月拼音＋小鹤双拼＋键序郑码方案。
+    小鹤双拼+键序郑码+English
   dependencies:
     # - stroke
+    - flypy
+    - asdfzma
+    - english
     - pinyin123
 
 switches:
@@ -47,11 +49,24 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - script_translator  #### 
-    - table_translator
+    - table_translator@english
+    - table_translator@asdfma
+    - script_translator
   filters:
-    #- simplifier
+    #- simplifier ### commented out because of error transforming from 弔 to 吊 if being used.
     - uniquifier
+
+english:
+  dictionary: english
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0
+
+asdfma:
+  dictionary: asdfzma
+  enable_sentence: false
+  max_phrase_length: 5
+
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -91,8 +106,8 @@ speller:
 
 translator:
   # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
-  dictionary: flypy_asdfzma
-  prism: flypy_asdfzma
+  dictionary: pinyin
+  prism: flypy_for_flypy+asdfma
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/

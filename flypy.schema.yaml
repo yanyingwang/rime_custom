@@ -3,13 +3,12 @@
 
 schema:
   schema_id: flypy
-  name: 小鹤双拼
+  name: 鹤
   version: "0.18"
   author:
     - double pinyin layout by 鹤
-    - Rime schema by 佛振 <chen.sst@gmail.com>
   description: |
-    明月拼音＋小鹤双拼方案。
+    拼音词库＋小鹤双拼方案
   dependencies:
     - stroke
 

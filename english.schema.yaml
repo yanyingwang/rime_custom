@@ -3,8 +3,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: melt_eng
-  name: EasEng
+  schema_id: english
+  name: English
   version: "0.2.2"
   author:
     - Patrick <ipatrickmac@gmail.com>
@@ -54,7 +54,7 @@ speller:
 # 把小写的单词转写为前2字母大写
     - derive/^([a-z][a-z])/\U$1/
 translator:
-  dictionary: melt_eng
+  dictionary: english
   spelling_hints: 9
 
 key_binder:

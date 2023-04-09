@@ -4,19 +4,11 @@
 config_version: "0.40"
 
 schema_list:
-  - schema: flypy_asdfzma
-  - schema: asdfzma
+  - schema: lian
   - schema: flypy
-  - schema: melt_eng
+  - schema: asdfzma
+  - schema: english
   - schema: pinyin123 # 郑码反查依赖于此库
-    #- schema: luna_pinyin
-    #- schema: luna_pinyin_fluency
-    #- schema: luna_pinyin_simp
-    #- schema: bopomofo
-    #- schema: bopomofo_tw
-    #- schema: cangjie5
-    #- schema: stroke
-    #- schema: terra_pinyin
 
 switcher:
   caption: 〔方案选单〕

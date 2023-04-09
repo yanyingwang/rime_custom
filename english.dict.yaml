@@ -1,0 +1,14 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 挂载英文输入方案的词库
+#
+
+---
+name: english
+version: "2023-02-26"
+import_tables:
+  - dicts/en/en_ext  # 补充
+  - dicts/en/en      # 英文主词库
+  - dicts/en/cn_en   # 中英混输词库，里面是写死了的全拼编码，双拼应该注释掉这一行。
+...
