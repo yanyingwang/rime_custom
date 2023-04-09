@@ -76,7 +76,7 @@ english:
 
 flypy:
   dictionary: pinyin
-  # prism: double_pinyin_flypy
+  prism: flypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
@@ -114,6 +114,7 @@ flypy:
 
 reverse_lookup:
   dictionary: pinyin123
+  translator: asdfzma1
   prefix: "`"
   tips: 〔拼音〕
   preedit_format:
