@@ -13,7 +13,7 @@ schema:
     小鹤双拼+键序郑码+English
   dependencies:
     - flypy
-    - asdfzma
+    - asdfzma1
     - english
     - pinyin123
 
@@ -48,7 +48,7 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator@asdfzma
+    - table_translator@asdfzma1
     - script_translator@flypy
     - table_translator@english
   filters:
@@ -56,11 +56,11 @@ engine:
     - uniquifier
 
 translator:
-  dictionary: asdfzma
+  dictionary: asdfzma1
 
-asdfzma:
-  dictionary: asdfzma
-  # initial_quality: 1.1     # 初始权重
+asdfzma1:
+  dictionary: asdfzma1
+  initial_quality: 1.3     # 初始权重
   # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
   enable_sentence: false
   enable_user_dict: false    # 禁用用户词典
@@ -68,12 +68,14 @@ asdfzma:
 
 english:
   dictionary: english
+  initial_quality: 1.1     # 初始权重
   enable_sentence: false
   enable_user_dict: false
   comment_format:          # 自定义提示码
     - xform/.*//           # 清空提示码
 
 flypy:
+  initial_quality: 1.2     # 初始权重
   dictionary: pinyin
   prism: flypy
   preedit_format:
