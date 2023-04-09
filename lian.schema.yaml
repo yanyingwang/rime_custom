@@ -14,7 +14,7 @@ schema:
   dependencies:
     # - stroke
     - pinyin # dicts of flypy
-    - asdfzma1
+    - asdfzma
     - english
     - pinyin123
 
