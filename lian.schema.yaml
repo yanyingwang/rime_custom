@@ -57,10 +57,10 @@ engine:
     - uniquifier
 
 translator:
-  dictionary: asdfzma1
+  dictionary: asdfzma
 
 asdfzma:
-  dictionary: asdfzma1
+  dictionary: asdfzma
   # initial_quality: 1.1     # 初始权重
   # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
   enable_sentence: false
