@@ -12,8 +12,7 @@ schema:
   description: |
     小鹤双拼+键序郑码+English
   dependencies:
-    # - stroke
-    - pinyin # dicts of flypy
+    - flypy
     - asdfzma
     - english
     - pinyin123
