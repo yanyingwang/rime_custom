@@ -49,7 +49,7 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator
+    - table_translator@asdfzma
     - script_translator@flypy
     - table_translator@english
   filters:
@@ -57,7 +57,9 @@ engine:
     - uniquifier
 
 translator:
-# asdfzma:
+  dictionary: asdfzma1
+
+asdfzma:
   dictionary: asdfzma1
   # initial_quality: 1.1     # 初始权重
   # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
@@ -109,8 +111,30 @@ flypy:
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
+
+reverse_lookup:
+  dictionary: pinyin123
+  prefix: "`"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA.,
+  # alphabet: zyxwvutsrqponmlkjihgfedcba
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
   algebra:
     - erase/^xx$/
@@ -145,21 +169,3 @@ speller:
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     #- abbrev/^(.).+$/$1/
 
-
-reverse_lookup:
-  dictionary: pinyin123
-  prefix: "`"
-  tips: 〔拼音〕
-  preedit_format:
-    - xform/([nljqxy])v/$1ü/
-
-punctuator:
-  import_preset: default
-
-key_binder:
-  import_preset: default
-
-recognizer:
-  import_preset: default
-  patterns:
-    reverse_lookup: "`[a-z]*'?$"
