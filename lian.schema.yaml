@@ -13,20 +13,20 @@ schema:
     小鹤双拼+键序郑码+English
   dependencies:
     # - stroke
-    - flypy
-    - asdfzma
+    - pinyin # dicts of flypy
+    - asdfzma1
     - english
     - pinyin123
 
 switches:
   - name: ascii_mode
-    states: [ 中文, 英文 ]
+    states: [ 中, 英 ]
     reset: 0
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
-    states: [ 繁体, 简体 ]
-    reset: 1
+    states: [ 简, 繁 ]
+    reset: 0
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -49,24 +49,65 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
+    - table_translator
+    - script_translator@flypy
     - table_translator@english
-    - table_translator@asdfma
-    - script_translator
   filters:
     #- simplifier ### commented out because of error transforming from 弔 to 吊 if being used.
     - uniquifier
 
-english:
-  dictionary: english
-  enable_completion: true
+translator:
+# asdfzma:
+  dictionary: asdfzma1
+  # initial_quality: 1.1     # 初始权重
+  # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
   enable_sentence: false
-  initial_quality: 0
-
-asdfma:
-  dictionary: asdfzma
-  enable_sentence: false
+  enable_user_dict: false    # 禁用用户词典
   max_phrase_length: 5
 
+english:
+  dictionary: english
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:          # 自定义提示码
+    - xform/.*//           # 清空提示码
+
+flypy:
+  dictionary: pinyin
+  prism: lian_flypy
+  preedit_format:
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - xform/([jqxy])v/$1u/
+    - xform/([nl])v/$1ü/
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -104,43 +145,6 @@ speller:
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     #- abbrev/^(.).+$/$1/
 
-translator:
-  # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
-  dictionary: pinyin
-  prism: flypy_for_flypy+asdfma
-  preedit_format:
-    - xform/([bpmfdtnljqx])n/$1iao/
-    - xform/(\w)g/$1eng/
-    - xform/(\w)q/$1iu/
-    - xform/(\w)w/$1ei/
-    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
-    - xform/(\w)t/$1ve/
-    - xform/(\w)y/$1un/
-    - xform/([dtnlgkhvuirzcs])o/$1uo/
-    - xform/(\w)p/$1ie/
-    - xform/([jqx])s/$1iong/
-    - xform/(\w)s/$1ong/
-    - xform/(\w)d/$1ai/
-    - xform/(\w)f/$1en/
-    - xform/(\w)h/$1ang/
-    - xform/(\w)j/$1an/
-    - xform/([gkhvuirzcs])k/$1uai/
-    - xform/(\w)k/$1ing/
-    - xform/([jqxnl])l/$1iang/
-    - xform/(\w)l/$1uang/
-    - xform/(\w)z/$1ou/
-    - xform/([gkhvuirzcs])x/$1ua/
-    - xform/(\w)x/$1ia/
-    - xform/(\w)c/$1ao/
-    - xform/([dtgkhvuirzcs])v/$1ui/
-    - xform/(\w)b/$1in/
-    - xform/(\w)m/$1ian/
-    - xform/([aoe])\1(\w)/$1$2/
-    - "xform/(^|[ '])v/$1zh/"
-    - "xform/(^|[ '])i/$1ch/"
-    - "xform/(^|[ '])u/$1sh/"
-    - xform/([jqxy])v/$1u/
-    - xform/([nl])v/$1ü/
 
 reverse_lookup:
   dictionary: pinyin123
