@@ -76,7 +76,7 @@ english:
 
 flypy:
   dictionary: pinyin
-  prism: lian_flypy
+  # prism: double_pinyin_flypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
