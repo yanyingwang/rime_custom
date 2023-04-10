@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: asdfzma
-  name: 掷
+  schema_id: asdfzma1
+  name: 掷1
   version: "1.0"
   author:
     - 发明人 郑易里教授
@@ -48,7 +48,7 @@ speller:
   max_code_length: 5
 
 translator:
-  dictionary: asdfzma
+  dictionary: asdfzma1
   enable_sentence: true
   enable_encoder: true
   encode_commit_history: true
