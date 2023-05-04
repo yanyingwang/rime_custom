@@ -16,12 +16,12 @@ Rime在快捷键的自定义上，提供的非常高的自由度，以下为我�
 
 
 ## 输入法方案
-* 键序郑码：https://github.com/yanyingwang/asdfma
+* 键序郑码：https://github.com/yanyingwang/asdfzma
 
 
 ## 词库来源
 * 简体拼音：https://github.com/iDvel/rime-ice
-* 键序郑码： https://github.com/yanyingwang/asdfma
+* 键序郑码： https://github.com/yanyingwang/asdfzma
 * 名语言新造字：https://github.com/yanyingwang/cangjie
 
 
