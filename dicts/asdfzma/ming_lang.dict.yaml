@@ -36,6 +36,7 @@ encoder:
 􏿩	fbry
 􏿫	byby
 􏿳	bybr
+􏿳	bbry
 􏿲	gfry
 􏿨	gfrf
 􏿧	fgry
@@ -131,6 +132,8 @@ encoder:
 # 􏾪	tila
 𢪛	agr
 􏾩	ahgr
+𢪛	ag
+􏾩	ahg
 抇	akoo
 抇	ak
 抈	awoo
@@ -178,11 +181,12 @@ encoder:
 􏷲	bak
 􏷲	bdak
 佫	tqyj
-􏷱	lsqj
-􏷰	zgqj
-􏷮	qjls
-􏷭	qjzg
+# 􏷱	lsqj
+# 􏷰	zgqj
+# 􏷮	qjls
+# 􏷭	qjzg
 􏷯	tcqj
+􏷬	qyls
 㦴	zgqj
 垿	dubb
 垿	dubh
@@ -203,8 +207,142 @@ encoder:
 􏾙	tma
 𥸬	icnf
 􏾘	nmhk
+􏾘	nmka
 􏾗	vjla
 􏾗	vajl
 􏾖	ivjl
 􏾖	icvl
-􏾕	ragl
+# 􏾕	rgla
+# 􏾕	ragl
+􏾃	ghla
+# 􏾔	vjbb
+# 􏾔	vjpb
+# 􏾔	vapb
+# 􏾓	tpbb
+# 􏾒	rgpb
+# 􏾒	rgbb
+􏾑	oxbb
+􏾑	oubb
+􏾐	lxbb
+􏾐	lubb
+􏾏	vxbb
+􏾏	vubb
+􏾈	vxbb
+􏾈	vubb
+􏾎	gxbb
+􏾎	gubb
+􏾎	gfbb
+􏾍	kxbb
+􏾍	kubb
+􏾌	jubb
+􏾌	jxbb
+􏾋	vjub
+􏾋	vxub
+􏾋	vjbb
+􏾊	ghub
+􏾊	gxub
+􏾊	ghbb
+􏾊	gubb
+􏾉	tubb
+􏾉	txbb
+􏾈	vubb
+􏾈	vxbb
+􏾇	jlbb
+􏾆	vlbb
+􏾅	glbb
+􏾄	tlbb
+􏾂	kvbb
+􏾁	vvbb
+􏾀	gvbb
+􏽿	tvbb
+􏽾	kvbb
+􏽽	vvbb
+􏽼	gvbb
+􏽻	tvbb
+􏽺	jobb
+􏽹	vobb
+􏽸	gobb
+􏽷	tobb
+􏽶	jgbb
+􏽵	vgbb
+􏽴	ggbb
+􏽳	tgbb
+# 􏽲	jglb
+# 􏽱	vglb
+# 􏽰	gglb
+# 􏽯	tglb
+􏽮	jglb
+􏽭	vglb
+􏽬	gglb
+􏽫	tglb
+􏽪	jvlb
+􏽩	vvlb
+􏽨	gvlb
+􏽧	tvlb
+􏽦	jgob
+􏽥	vgob
+􏽤	ggob
+􏽣	tgob
+􏽢	jvob
+􏽡	vvob
+􏽠	gvob
+􏽟	tvob
+􏽞	glbb
+􏽞	glxb
+􏽝	gobb
+􏽝	goxb
+􏽜	vlbb
+􏽜	vlxb
+􏽛	vobb
+􏽛	voxb
+􏽚	knmh
+𦙨	wnmh
+􏽙	nmhk
+􏽙	nmk
+􏽘	anmk
+􏽗	arsk
+𠛮	rska
+𠛮	rsk
+􏽖	btqj
+􏽖	bytj
+􏽕	tgkq
+􏽔	lgry
+􏽔	llgr
+􏽓	ogry
+􏽓	ofgr
+􏽒	ata
+挌	aqj
+􏽑	adgq
+𥻑	ickm
+𥻑	iklm
+𥺿	ixfj
+𥺿	icxj
+粭	icrj
+粭	irfj
+􏽐	ipux
+􏽐	icpx
+􏽏	ihki
+􏽏	ichk
+􏽎	igkq
+􏽎	icgq
+粃	icqq
+𥹵	iccj
+粰	icen
+𮇢	icql
+􏽍	icuq
+􏽌	icfh
+􏽋	iqlr
+􏽋	icqr
+􏽊	iolk
+􏽊	icik
+􏽉	icjr
+􏽉	ijlr
+􏽈	ickr
+􏽇	icxa
+􏽆	icqn
+㞺	llgf
+􏽅	gflr
+􏽄	vglr
+勺	qnf
+􏽃	llqf
+􏽂	ofqf
