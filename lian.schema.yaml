@@ -64,13 +64,15 @@ asdfzma1:
   # enable_completion: false # 若要只出精確匹配輸入碼的候選字，可關閉這一選項
   enable_sentence: false
   enable_user_dict: false    # 禁用用户词典
+  # disable_user_dict_for_patterns:
+  #   - ^[a-x]$
   max_phrase_length: 5
 
 english:
   dictionary: english
   initial_quality: 1.1     # 初始权重
-  enable_sentence: false
-  enable_user_dict: false
+  enable_sentence: true
+  enable_user_dict: true
   comment_format:          # 自定义提示码
     - xform/.*//           # 清空提示码
 

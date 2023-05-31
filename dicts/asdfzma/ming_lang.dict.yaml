@@ -1,10 +1,12 @@
 ---
 name: ming_lang
 version: "2.0"
+# sort: by_weight
 sort: original
 columns:
   - text
   - code
+  - weight
 encoder:
   rules:
     - length_equal: 2
@@ -346,3 +348,100 @@ encoder:
 勺	qnf
 􏽃	llqf
 􏽂	ofqf
+􏽁	llqj
+􏽀	ofqj
+􏼿	agkq
+# 􏼾	bmlr
+# 􏼽	byqj
+# 􏼼	byqj
+# 􏼻	qnjb
+# 􏼻	qjby
+􏼺	prdk
+􏼺	pdkr
+𥦯	prks
+􏼹	qjcf
+􏼸	qjfc
+􏼷	qjxe
+􏼶	qjxd
+􏼵	qjxj
+􏼴	qjjh
+􏼳	qjbn
+􏼲	bnqj
+􏼱	khqj
+􏼰	khbj
+􏼰	kbqj
+􏼯	klqj
+􏼯	khlj
+􏼮	prkj
+􏼮	pkqj
+􏼭	qjnm
+􏼬	qjub
+邭	qnjn
+邭	qjn
+􏼪	brqj
+􏼪	byrj
+􏼩	qjbr
+􏼩	qnjr
+􏼨	xfqj
+􏼧	kfnj
+􏼧	kfqj
+􏼦	xkqj
+􏼦	xakj
+􏼥	qjzg
+􏼥	qnjz
+􏼤	cfqj
+􏼣	fcqj
+􏼢	fvqj
+􏼡	qqqj
+􏼠	prkj
+􏼠	pkqj
+􏼟	qjpk
+􏼞	qjin
+􏼝	qjiq
+􏼜	qjiq
+􏼛	qjpf
+􏼚	prfj
+􏼚	pfqj
+􏼙	iaqj
+􏼙	iqqj
+􏼘	aqjg
+􏼗	gkqj
+􏼖	agkj
+𰅡	aq
+𢪎	atq
+􏼕	aqjq
+􏼓	sabr	100
+􏼓	sbry	100
+􏼒	mbry	100
+􏼒	mnbr	100
+􏼎	nmbr	100
+􏼎	nbry	100
+􏼏	icbr	100
+􏼏	ibry	100
+􏼍	shbr	100
+􏼍	sbry	100
+􏼌	shqj	100
+􏼋	ngry	100
+􏼋	nmgr	100
+􏼊	sagr	100
+􏼊	sgry	100
+􏼉	mgry	100
+􏼉	mngr	100
+􏼈	sagr	100
+􏼈	sgry	100
+􏼇	ngry	100
+􏼇	nmgr	100
+􏼆	khgr	100
+􏼆	kgry	100
+􏼅	saqj	100
+􏼄	nmqj	100
+􏼃	mnqj	100
+􏼂	mnbj	100
+􏼂	mbqj	100
+􏼁	llmj	100
+􏼁	lmqj	100
+􏼀	lmbj	100
+􏼀	llmj	100
+􏼑	saqj	100
+􏼔	nmqj	100
+􏼐	mnqj	100
