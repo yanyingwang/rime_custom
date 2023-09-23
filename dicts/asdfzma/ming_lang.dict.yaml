@@ -1,3 +1,4 @@
+
 ---
 name: ming_lang
 version: "2.0"
@@ -19,10 +20,13 @@ encoder:
       formula: "AaBaCaDaEa"
 ...
 
+# 尚	klj
+並	ik
 並	ifki
 名	qj
-各	qj
+# 各	qj
 各	qjy
+垎	dqyj
 􏹨	fcbb
 􏹥	fcby
 􏹧	bbfc
@@ -91,6 +95,7 @@ encoder:
 􏹛	jijc
 􏹚	kaic
 􏹚	icka
+𫂱	icta
 􏹙	icir
 # 􏹘
 # 􏹗
@@ -121,8 +126,12 @@ encoder:
 􏺍	khqf
 
 􏺔	qjxm
+􏺔	qjxf
 􏺓	qjkm
+􏺓	qjkf
 􏺒	qjxk
+􏸶	qjfv
+
 􏺕	qjzb
 􏺕	qnjz
 􏺚	icqw
@@ -249,7 +258,7 @@ encoder:
 􏻢	xafi
 􏻢	xfic
 𠤻	zic
-𥺌	icrg
+𥺌	icrc
 𥺌	irgc
 􏻓	icya
 􏻓	icyj
@@ -587,20 +596,22 @@ encoder:
 􏽀	ofqj
 􏽀	oqnj
 􏼿	agkq
+
 # 􏼾	bmlr
 # 􏼽	byqj
 # 􏼼	byqj
 # 􏼻	qnjb
 # 􏼻	qjby
-􏼺	prdk
-􏼺	pdkr
+# 􏼺	prdk
+# 􏼺	pdkr
 𥦯	prks
 􏼹	qjcf
 􏼸	qjfc
-􏼷	qjxe
-􏼶	qjxd
-􏼵	qjxj
-􏼴	qjjh
+# 􏼷	qjxe
+# 􏼶	qjxd
+# 􏼵	qjxj
+# 􏼴	qjjh
+
 􏼳	qjbn
 􏼲	bnqj
 􏼱	khqj
@@ -611,23 +622,26 @@ encoder:
 􏼮	prkj
 􏼮	pkqj
 􏼭	qjnm
-􏼬	qjub
+# 􏼬	qjub
+
 邭	qnjn
 邭	qjn
 􏼪	brqj
 􏼪	byrj
 􏼩	qjbr
 􏼩	qnjr
-􏼨	xfqj
-􏼧	kfnj
-􏼧	kfqj
-􏼦	xkqj
-􏼦	xakj
+# 􏼨	xfqj
+# 􏼧	kfnj
+# 􏼧	kfqj
+# 􏼦	xkqj
+# 􏼦	xakj
+
+
 􏼥	qjzg
 􏼥	qnjz
-􏼤	cfqj
-􏼣	fcqj
-􏼢	fvqj
+# 􏼤	cfqj
+# 􏼣	fcqj
+# 􏼢	fvqj
 􏼡	qqqj
 􏼠	prkj
 􏼠	pkqj
@@ -636,6 +650,8 @@ encoder:
 􏼝	qjiq
 􏼜	qjiq
 􏼛	qjpf
+􏸵	qjpn
+
 􏼚	prfj
 􏼚	pfqj
 􏼙	iaqj
@@ -647,42 +663,42 @@ encoder:
 𢪎	atq
 􏼕	aqjq
 
-􏼓	sabr	100
-􏼓	sbry	100
-􏼒	mbry	100
-􏼒	mnbr	100
-􏼎	nmbr	100
-􏼎	nbry	100
-􏼏	icbr	100
-􏼏	ibry	100
-􏼍	shbr	100
-􏼍	sbry	100
-􏼌	shqj	100
-􏼋	ngry	100
-􏼋	nmgr	100
-􏼊	sagr	100
-􏼊	sgry	100
-􏼉	mgry	100
-􏼉	mngr	100
-􏼈	sagr	100
-􏼈	sgry	100
-􏼇	ngry	100
-􏼇	nmgr	100
-􏼆	khgr	100
-􏼆	kgry	100
-􏼅	saqj	100
-􏼅	sqnj	100
-􏼄	nmqj	100
-􏼃	mnqj	100
-􏼂	mnbj	100
-􏼂	mbqj	100
-􏼁	llmj	100
-􏼁	lmqj	100
-􏼀	lmbj	100
-􏼀	llmj	100
-􏼑	saqj	100
-􏼔	nmqj	100
-􏼐	mnqj	100
+􏼓	sabr
+􏼓	sbry
+􏼒	mbry
+􏼒	mnbr
+􏼎	nmbr
+􏼎	nbry
+􏼏	icbr
+􏼏	ibry
+􏼍	shbr
+􏼍	sbry
+􏼌	shqj
+􏼋	ngry
+􏼋	nmgr
+􏼊	sagr
+􏼊	sgry
+􏼉	mgry
+􏼉	mngr
+􏼈	sagr
+􏼈	sgry
+􏼇	ngry
+􏼇	nmgr
+􏼆	khgr
+􏼆	kgry
+􏼅	saqj
+􏼅	sqnj
+􏼄	nmqj
+􏼃	mnqj
+􏼂	mnbj
+􏼂	mbqj
+􏼁	llmj
+􏼁	lmqj
+􏼀	lmbj
+􏼀	llmj
+􏼑	saqj
+􏼔	nmqj
+􏼐	mnqj
 
 􏻿	gfva
 􏻾	gfha
@@ -760,3 +776,41 @@ encoder:
 􏹁	tnr
 􏹀	fqqj
 􏸿	fqrp
+􏸾	ikqj
+􏸽	ikrp
+􏸼	ikvl
+𰅰	vlf
+𰅰	vl
+𢀖	bydh
+􏸻	bdvl
+􏸺	dnvl
+􏸹	vlbd
+􏸸	vldn
+􏸷	ikdk
+# 􏸴	tqha
+# 􏸳	tfqh
+# 㚈	qyva
+# 􏸲	ppqh
+# 俖	txhj
+# 􏸱	raja
+# 􏸱	raj
+# 􏸰	rah
+# 􏸯	ran
+# 􏸮	ranm
+# 􏸭	rapr
+􏸬	rafa
+􏸫	rafd
+􏸪	rafs
+# 􏸩	rafj
+# 􏸨	rary
+􏸧	rafj
+# 􏸧	raj
+# 􏸧	raj
+夬	bxa
+# 丫	iah
+丫	ih
+􏸣	ihf
+􏸞	ihks
+𥟍	gcks
+# 􏸝	gcks
+􏸜	dgiv
