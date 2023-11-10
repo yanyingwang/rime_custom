@@ -20,13 +20,13 @@ encoder:
       formula: "AaBaCaDaEa"
 ...
 
-# 尚	klj
+
 並	ik
 並	ifki
 名	qj
 # 各	qj
 各	qjy
-垎	dqyj
+
 􏹨	fcbb
 􏹥	fcby
 􏹧	bbfc
@@ -445,9 +445,10 @@ encoder:
 􏷳	vrk
 􏷲	bak
 􏷲	bdak
-佫	tqyj
 
-􏷱	lsqj
+垎	dqyj
+佫	tqyj
+􏷱	ivqj
 􏷰	zgqj
 􏷮	qjls
 􏷭	qjzg
@@ -803,11 +804,17 @@ encoder:
 􏸪	rafs
 # 􏸩	rafj
 # 􏸨	rary
+􏸧	raja
 􏸧	rafj
 # 􏸧	raj
-# 􏸧	raj
-夬	bxa
 
+# 尚	klj
+肖	kw
+肖	krw
+当	kb
+当	krb
+夬	bxa
+夬	bx
 # 丫	iah
 # 􏸣	ihf
 丫	ih
@@ -817,5 +824,15 @@ encoder:
 
 𥟍	gcks
 # 􏸝	gcks
-􏸜	dgiv
+# 􏸜	dgiv
 𡌶	difk
+􏸛	dgc
+􏸚	dgf
+􏸚	dgcf
+􏸙	qjgr
+􏸘	gcqg
+􏸗	rakw
+􏸖	kakw
+秝	gcgc
+􏸕	gcgf
+􏸔	gcgd
