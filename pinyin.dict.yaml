@@ -10,6 +10,7 @@ import_tables:
   - dicts/pinyin/base     # 基础词库
   - dicts/pinyin/sogou    # 搜狗流行词
   - dicts/pinyin/ext      # 扩展词库
+  - dicts/pinyin/2nd_nc   # 二次新文化运动
   # - dicts/pinyin/tencent  # 腾讯词向量（大词库，部署时间较长）
   # - dicts/pinyin/others   # 一些杂项
 

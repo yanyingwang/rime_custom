@@ -8,5 +8,6 @@ import_tables:
   - dicts/asdfzma/ming_lang.char
   - dicts/asdfzma/ming_lang
   - dicts/asdfzma/characters
+  - dicts/asdfzma/2nd_nc
   # - dicts/asdfzma/large_collection
   # - dicts/asdfzma/jidian_qinghua

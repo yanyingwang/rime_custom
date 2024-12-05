@@ -115,15 +115,15 @@ encoder:
 􏹏	ijxf
 􏹎	xfij
 
-􏺋	kfqf
-􏺋	kqnf
-􏺌	dkqf
-􏺏	lkqf
-􏺏	lqf
-􏺎	jfqf
-􏺎	jqf
-􏺍	khff
-􏺍	khqf
+􏺋	jrqy
+􏺌	jkqi
+􏺏	lkqy
+􏺏	lqy
+􏺎	jfqy
+􏺎	jqy
+􏺍	lkqy
+􏺍	jkqy
+􏺍      kjqy
 
 􏺔	qjxm
 􏺔	qjxf
@@ -449,6 +449,8 @@ encoder:
 垎	dqyj
 佫	tqyj
 􏷱	ivqj
+􏷱	ifqj
+􏷱	ifvj
 􏷰	zgqj
 􏷮	qjls
 􏷭	qjzg
@@ -506,58 +508,51 @@ encoder:
 􏾍	kubb
 􏾌	jubb
 􏾌	jxbb
-􏾋	vjub
-􏾋	vxub
-􏾋	vjbb
-􏾊	ghub
-􏾊	gxub
-􏾊	ghbb
-􏾊	gubb
-􏾉	tubb
-􏾉	txbb
+􏾋	ofub
+􏾊	ijub
+􏾉      daub
 􏾈	vubb
 􏾈	vxbb
 􏾇	jlbb
-􏾆	vlbb
-􏾅	glbb
-􏾄	tlbb
+􏾆	ijlb
+􏾄	dalb
 􏾂	kvbb
-􏾁	vvbb
-􏾀	gvbb
-􏽿	tvbb
-􏽾	kvbb
-􏽽	vvbb
-􏽼	gvbb
-􏽻	tvbb
-􏽺	jobb
-􏽹	vobb
-􏽸	gobb
-􏽷	tobb
-􏽶	jgbb
-􏽵	vgbb
-􏽴	ggbb
-􏽳	tgbb
+􏾁	ojvb
+􏾀	ijvb
+􏽿	davb
+􏽾	jvxb
+􏽽	ijxb
+􏽼	ijxb
+􏽻	daxb
+􏽺	joxb
+􏽹	ojob
+􏽸	ijob
+􏽷	daob
+􏽶	jgxb
+􏽵	ijgb
+􏽴	ijgb
+􏽳	dagb
 # 􏽲	jglb
 # 􏽱	vglb
 # 􏽰	gglb
 # 􏽯	tglb
 􏽮	jglb
-􏽭	vglb
-􏽬	gglb
-􏽫	tglb
+􏽭	ojgb
+􏽬	ijgb
+􏽫	dagb
 􏽪	jvlb
-􏽩	vvlb
-􏽨	gvlb
-􏽧	tvlb
+􏽩	ojgb
+􏽨	ijvb
+􏽧	davb
 􏽦	jgob
 􏽥	vgob
-􏽤	ggob
-􏽣	tgob
+􏽤	ijgb
+􏽣	dagb
 􏽢	jvob
-􏽡	vvob
-􏽠	gvob
-􏽟	tvob
-􏽞	glbb
+􏽡	ojvb
+􏽠	ijvb
+􏽟	davb
+􏽞	glvb
 􏽞	glxb
 􏽝	gobb
 􏽝	goxb
@@ -587,13 +582,20 @@ encoder:
 􏽅	gflr
 􏽄	vglr
 
-勺	qnf
-􏽃	llqf
-􏽃	lqnf
-􏽂	ofqf
-􏽂	oqnf
+
+􏷂	qny
+􏶿	qnf
+􏷁	qnu
+􏷁	qnyy
+# 勺	qny
+# 勺	qnf
+􏽃	llqy
+􏽃	lqny
+􏽂	ofqy
+􏽂	oqny
 􏽁	llqj
 􏽁	lqnj
+􏽀	oaqj
 􏽀	ofqj
 􏽀	oqnj
 􏼿	agkq
@@ -647,6 +649,7 @@ encoder:
 􏼠	prkj
 􏼠	pkqj
 􏼟	qjpk
+􏼟	qnjk
 􏼞	qjin
 􏼝	qjiq
 􏼜	qjiq
@@ -836,3 +839,115 @@ encoder:
 秝	gcgc
 􏸕	gcgf
 􏸔	gcgd
+
+􏸓	lair
+􏸒	laik
+􏸑	lain
+􏸐	xdir
+􏸐	xdin
+􏸏	xdik
+􏸎	xdin
+􏸍	iarn
+􏸌	iaka
+􏸋	ian
+􏸊	xdlr
+􏸉	xlin
+􏸉	xlir
+􏸈	xlik
+􏸈	xdlk
+􏸇	xlin
+􏸇	xdln
+􏸆	xdlk
+􏸅	xdln
+􏸄	xdrn
+􏸃	xjrn
+
+# 􏷦	nmhq
+# 􏷥	nmhw
+# 􏷤	nmhe
+# 􏷣	nmhr
+# 􏷢	nmht
+# 􏷡	nmhy
+# 􏷠	nmhu
+# 􏷟	nmhi
+# 􏷞	nmho
+# 􏷝	nmhp
+􏷜	fnh
+􏷛	danh
+􏷛	dnh
+􏷚	sanh
+􏷚	snh
+􏷙	lknh
+􏷙	lnh
+􏷘	fbnh
+􏷘	fnh
+􏷗	yrnh
+􏷗	ynh
+􏷖	zgnh
+􏷖	znh
+􏷕	rnh
+􏷔	wnnh
+􏷔	wnh
+􏷓	vanh
+􏷓	vnh
+
+𢓜	rhqj
+􏷒	qyr
+􏷒	qr
+􏷒	qraf
+􏷒	qrf
+􏷒	qyr
+􏷑	tqr
+􏷑	tqrf
+􏷐	ivqr
+􏷏	zqrf
+􏷏	zgqr
+􏷎	dqrf
+􏷎	dqr
+􏷍	tbry
+𢪛	ag
+􏷌	gfva
+􏷋	rygv
+􏷊	prbr
+􏷉	aqr
+𰁦	tg
+𰁦	tgry
+􏷇	oala
+􏷇	olfj
+冃	lada
+􏷈	iclk
+􏷆	lahh
+􏷆	laka
+􏷅	laid
+􏶞	qjgd
+􏶞	qnjr
+􏶞	qjgr
+􏶓	gfrn
+􏶒	qjgn
+􏶒	qnjn
+􏶑	rfjj
+􏶑	rjqj
+􏶑	qjqj
+􏶐	qjdr
+􏶐	qnjr
+􏶎	qjcj
+􏶎	qnjj
+􏶌	qjsw
+􏶌	qnjw
+􏶋	qjyh
+􏶋	qnjh
+􏶊	qjrw
+􏶊	qjjw
+􏶉	qnjA
+􏶉	qjAA
+􏶈	qjaa
+􏶈	qnja
+􏶇	qnja
+􏶇	qjAa
+􏶆	qjss
+􏶅	pph
+􏶅	pph
+􏶄	pah
+􏶄	pahh
+㝉	paf
+㝉	paff

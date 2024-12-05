@@ -1,0 +1,37 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+# 2nd new culture 二次新文化运动
+#
+---
+name: 2nd_nc
+version: "2024-06-09"
+sort: by_weight
+...
+
+
+囯家	guo jia
+囯内	guo nei
+民囯	min guo
+建囯	jian guo
+共和囯	gong he guo
+西国	xi guo
+西囯	xi guo
+中囯	zhong guo
+中囯人	zhong guo ren
+美囯	mei guo
+英囯	ying guo
+法囯	fa guo
+德囯	de guo
+國家	guo jia
+中國	zhong guo
+美國	mei guo
+英國	ying guo
+法國	fa guo
+德國	de guo
+並	bing
+並且	bing qie

@@ -1,0 +1,32 @@
+
+---
+name: 2nd_nc
+version: "2.0"
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaBbCaCb"
+    - length_equal: 4
+      formula: "AaBaCaDaDb"
+    - length_in_range: [5, 10]
+      formula: "AaBaCaDaEa"
+...
+
+
+囯	jasf
+囯	jas
+囯	js
+国	jasy
+國	jazf
+中囯	jhjs
+中国	jhjy
+美囯	ixjs
+美国	ixjy
+英囯	vljs
+英国	vljy
