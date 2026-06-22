@@ -47,3 +47,5 @@ ln -sf ~/.local/share/fcitx5/rime ~/rime_custom # for easily accessing configure
 
 然后重新部署，即可生效。
 
+## 雾凇拼音
+https://dvel.me/posts/rime-ice/
