@@ -5,6 +5,7 @@ config_version: "0.40"
 
 schema_list:
   - schema: lian
+  - schema: lian1
   - schema: flypy
   - schema: asdfzma
   - schema: english
