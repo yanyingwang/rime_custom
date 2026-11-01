@@ -20,7 +20,8 @@ encoder:
       formula: "AaBaCaDaEa"
 ...
 
-
+令	rayn
+令	ryn
 並	ik
 並	ifki
 名	qj
@@ -376,9 +377,8 @@ encoder:
 􏾻	rckp
 𮞑	qjp
 𮞑	qyjp
-􏾺	xdn
+􏾺	xan
 𨚞	xjn
-􏾺	xadn
 𨚞	xajn
 􏾹	rydn
 􏾸	ryjn
@@ -465,6 +465,7 @@ encoder:
 􏾟	dbry
 􏾞	dbby
 􏾝	nmhn
+􏾝	nmhy
 𬩵	jhn
 𬩵	jhnf
 𡖻	qyvl
@@ -757,8 +758,7 @@ encoder:
 𰁣	tnm
 􏹌	bdra
 􏹌	bdr
-􏹋	bdn
-􏹋	bdnf
+􏹋	bdny
 􏹊	bdk
 􏹊	bdka
 􏹉	kbd
@@ -825,8 +825,9 @@ encoder:
 􏸟	ifks
 􏸞	ihks
 
+􏸝	gcks
 𥟍	gcks
-# 􏸝	gcks
+
 # 􏸜	dgiv
 𡌶	difk
 􏸛	dgc
@@ -872,25 +873,17 @@ encoder:
 # 􏷟	nmhi
 # 􏷞	nmho
 # 􏷝	nmhp
-􏷜	fnh
-􏷛	danh
-􏷛	dnh
-􏷚	sanh
-􏷚	snh
-􏷙	lknh
-􏷙	lnh
-􏷘	fbnh
-􏷘	fnh
-􏷗	yrnh
-􏷗	ynh
-􏷖	zgnh
-􏷖	znh
-􏷕	rnh
-􏷔	wnnh
-􏷔	wnh
-􏷓	vanh
-􏷓	vnh
-
+􏷜	vnyf
+􏷛	vnyd
+􏷚	vnys
+􏷚	vnys
+􏷙	vnyl
+􏷘	vnyf
+􏷗	vnyy
+􏷖	vnyz
+􏷕	vnyr
+􏷔	vnyw
+􏷓	vnyv
 𢓜	rhqj
 􏷒	qyr
 􏷒	qr
@@ -938,12 +931,12 @@ encoder:
 􏶋	qnjh
 􏶊	qjrw
 􏶊	qjjw
-􏶉	qnjA
-􏶉	qjAA
+􏶉	qnja
+􏶉	qjaa
 􏶈	qjaa
 􏶈	qnja
 􏶇	qnja
-􏶇	qjAa
+􏶇	qjaa
 􏶆	qjss
 􏶅	pph
 􏶅	pph
@@ -953,13 +946,189 @@ encoder:
 㝉	paf
 㝉	paff
 􏶂	phzb
-􏶁	phAa
-􏶀	phAA
+􏶁	phaa
+􏶀	phaa
 􏵿	phaa
-􏵾	phAa
+􏵾	phaa
 􏵽	phr9
 􏵼	phri
 􏵻	phic
-􏵺	pphA
-􏵺	phA
+􏵺	ppha
+􏵺	pha
 􏵹	phac
+􏵞	brdm
+􏵞	byrm
+􏵝	ubdm
+􏵝	uxbm
+􏵜	qkdm
+􏵜	qnkm
+􏵛	qydm
+􏵛	qnym
+􏵚	qtdm
+􏵚	qntm
+􏵙	icdm
+􏵘	ikdm
+􏵘	ickm
+􏵘	ikdm
+􏵗	phdm
+􏵖	damh
+􏵖	dmh
+􏵕	yrh
+􏵔	bryr
+􏵓	uxyr
+􏵒	qkyr
+􏵑	qyyr
+􏵐	qtyr
+􏵏	icyr
+􏵎	ikyr
+􏵍	phyr
+􏵌	dary
+􏵌	dr
+􏵋	brdb
+􏵌	uxdb
+􏵊	brdb
+􏵉	qjdb
+􏵈	qydb
+􏵇	qtdb
+􏵆	icdb
+􏵅	ikdb
+􏵄	phdb
+􏵃	ksgc
+# 􏵂	mnff
+􏵁	mhmq
+􏵀	mnhf
+㞢	mf
+# 􏴿	mjmq
+􏴾	mmqj
+􏴽	mkmq
+􏴼	mmhq
+􏴻	bhdf
+􏴺	tsff
+􏴹	qjbh
+􏴸	qjts
+􏴷	bqjr
+􏴶	bqyr
+􏴵	bqtr
+􏴴	bphr
+􏴳	bbry
+􏴲	bubr
+𢎨	nmht
+𢎨	nht
+# 􏴱
+# 􏴰
+# 􏴯
+# 􏴮
+# 􏴭
+# 􏴬
+􏴫	tdff
+#􏴪
+#􏴩
+􏴨       vnj
+􏴧	vnf
+􏴦	vnd
+􏴥	vns
+􏴤	vnl
+􏴣	vnfb
+􏴢	vny
+􏴡	vnz
+􏴠	vnr
+􏴟	vnwn
+􏴞	vnva
+􏴝	nhtn
+􏴜	nhtn
+􏴜	ntny
+􏴛	nhn
+􏴛	nmhn
+􏾝	nhny
+# 􏴚
+􏴙	bdn
+􏴘	bdrn
+􏴗	nyff
+# 􏴖
+# 􏴕
+# 􏴔
+# 􏴓
+# 􏴒
+# 􏴑
+# 􏴐
+# 􏴎	kbr
+􏴍	xdn
+􏴌	xayn
+􏴋	xaff
+􏴊	xayf
+􏴉	xynt
+􏴉	xynn
+􏴈	xynh
+􏴈	xynn
+􏴇	xnhn
+􏴆	xntn
+􏴅	xynn
+􏴄	xynn
+􏴃	ran
+􏴂	rany
+􏴁	xrn
+􏴀	xrny
+􏳿	xyrn
+􏳾	xyrn
+􏳹	xany
+􏳸	xyny
+􏳷	xatd
+􏳶	xytd
+􏳵	xrtd
+􏳴	xryt
+􏳳	xtsk
+􏳲	xytk
+􏳱	xrtk
+􏳰	xyrk
+􏳮      ixrn
+􏳮      ixry
+􏳭	thgr
+􏳬	mlff
+􏳫	mlxn
+# 􏳪      mxyn
+# 􏳩
+􏳨	mlln
+􏳧	mlnk
+􏳦	mltk
+􏳥	tskf
+􏳤	nykf
+# 􏳣	x
+􏳢	mlny
+# 􏳡	x
+# 􏳠	xytk
+# 􏳟	xrtk
+# 􏳞	xyrk
+# 􏳝      ixrn
+# 􏳜      ixry
+# 􏳛	thgr
+# 􏳚	msff
+# 􏳙      msxn
+􏳘	tdkf
+􏳗	xlkf
+而	xlk
+􏳖	tmrf
+􏳖	tmrl
+# 􏳕	tmlk
+# 􏳔	tmlk
+􏳓	txlf
+# 􏳒
+# 􏳑
+# 􏳐
+􏳏	tlff
+􏳎	tbrk
+􏳍	tbrd
+􏳋	thdo
+􏳋	tdoo
+􏳊	tdbr
+𡌘	drgc
+􏳉	uxnc
+庩	uxrc
+􏳈	hla
+􏳇	laff
+􏳆	nfm
+􏳅	uxfm
+􏳄	uxfm
+􏳃	nddg
+􏳂	gddg
+偖	tdgk
+褚	pudg
